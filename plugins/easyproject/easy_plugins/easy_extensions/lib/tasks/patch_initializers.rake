@@ -85,10 +85,10 @@ if secret.present?
   RedmineApp::Application.config.secret_token = secret
 end
 
-#if Object.const_defined?(:OpenIdAuthentication)
-#  openid_authentication_store = Redmine::Configuration['openid_authentication_store']
-#  OpenIdAuthentication.store = openid_authentication_store.presence || :memory
-#end
+if Object.const_defined?(:OpenIdAuthentication)
+  openid_authentication_store = Redmine::Configuration['openid_authentication_store']
+  OpenIdAuthentication.store = openid_authentication_store.presence || :memory
+end
 
 Redmine::Plugin.load
 

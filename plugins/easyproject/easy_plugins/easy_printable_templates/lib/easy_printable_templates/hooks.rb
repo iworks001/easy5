@@ -1,4 +1,3 @@
-Rails.application.config.to_prepare do
 module EasyPrintableTemplates
   class Hooks < Redmine::Hook::ViewListener
 
@@ -68,5 +67,4 @@ module EasyPrintableTemplates
     end
 
   end
-end
 end

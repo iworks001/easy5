@@ -1,4 +1,3 @@
-Rails.application.config.to_prepare do
 module EasyCalendar
   class Hooks < Redmine::Hook::ViewListener
 
@@ -10,5 +9,4 @@ module EasyCalendar
     # render_on :view_layouts_base_html_head, :partial => 'easy_calendar/view_layouts_base_html_head'
 
   end
-end
 end

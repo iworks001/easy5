@@ -199,23 +199,11 @@ module Redmine
       Rails.application.configure do
         config.assets.precompile += Dir.glob(File.join(p.assets_directory, '{stylesheets,javascripts}', "#{id}.{css,js,scss}")) + Dir.glob(File.join(p.assets_directory, 'images', '**', '*'))
 
-        assets_paths = Dir.glob(File.join(p.assets_directory, '{stylesheets,javascripts,images}'))
-
-unless defined?(Redmine::PluginLoader)
-  if p.id == :easy_project_com || p.id == :easy_redmine
-    config.assets.paths = assets_paths + config.assets.paths
-  else
-    config.assets.paths.concat(assets_paths)
-  end
-else
-  Rails.logger.info "[easyproject] Skipping asset path registration for #{p.id} (handled by PluginLoader)"
-end
-
-#        if p.id == :easy_project_com || p.id == :easy_redmine
-#          config.assets.paths = Dir.glob(File.join(p.assets_directory, '{stylesheets,javascripts,images}')) + config.assets.paths
-#        else
-#          config.assets.paths.concat Dir.glob(File.join(p.assets_directory, '{stylesheets,javascripts,images}'))
-#        end
+        if p.id == :easy_project_com || p.id == :easy_redmine
+          config.assets.paths = Dir.glob(File.join(p.assets_directory, '{stylesheets,javascripts,images}')) + config.assets.paths
+        else
+          config.assets.paths.concat Dir.glob(File.join(p.assets_directory, '{stylesheets,javascripts,images}'))
+        end
       end
 
       if (initializer = plugin_path.join('after_init.rb')).exist?
@@ -502,11 +490,7 @@ module EasyProjectLoader
   end
 end
 
-#EasyProjectLoader.init!
-Rails.application.config.after_initialize do
-  EasyProjectLoader.init!
-end
-
+EasyProjectLoader.init!
 
 class EasyLoadPath < Array
   def +(arr)

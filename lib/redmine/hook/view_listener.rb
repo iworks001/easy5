@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-puts "Loading: #{__FILE__}"
 
 # Redmine - project management software
 # Copyright (C) 2006-  Jean-Philippe Lang

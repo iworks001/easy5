@@ -1,4 +1,3 @@
-Rails.application.config.to_prepare do
 module EasyProjectAttachments
   class Hooks < Redmine::Hook::ViewListener
     render_on :view_documents_bottom, :partial => 'easy_project_attachments/easy_query', :locals => {:easy_query_label => ''}
@@ -16,5 +15,4 @@ module EasyProjectAttachments
     end
 
   end
-end
 end

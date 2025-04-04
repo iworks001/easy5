@@ -1,4 +1,3 @@
-Rails.application.config.to_prepare do
 module EasyExtensions
   class Hooks < Redmine::Hook::ViewListener
 
@@ -213,5 +212,4 @@ module EasyExtensions
     end
 
   end
-end
 end

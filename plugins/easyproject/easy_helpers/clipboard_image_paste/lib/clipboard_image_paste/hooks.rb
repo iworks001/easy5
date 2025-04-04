@@ -9,7 +9,7 @@
 # Terms of use:
 # - GNU GENERAL PUBLIC LICENSE Version 2
 #*******************************************************************************
-Rails.application.config.to_prepare do
+
 module ClipboardImagePaste
   class Hooks  < Redmine::Hook::ViewListener
     # Render image paste form on every page,
@@ -30,4 +30,3 @@ module ClipboardImagePaste
 
   end # class
 end # module
-end

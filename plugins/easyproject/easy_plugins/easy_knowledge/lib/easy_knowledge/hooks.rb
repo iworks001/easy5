@@ -1,4 +1,3 @@
-Rails.application.config.to_prepare do
 require 'sanitize'
 
 module EasyKnowledge
@@ -66,4 +65,3 @@ module EasyKnowledge
   end
 end
 
-end

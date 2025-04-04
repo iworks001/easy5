@@ -1,4 +1,3 @@
-Rails.application.config.to_prepare do
 module EasyComputedCustomFields
   class Hooks < Redmine::Hook::ViewListener
 
@@ -15,5 +14,4 @@ module EasyComputedCustomFields
     end
 
   end
-end
 end

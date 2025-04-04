@@ -18,7 +18,7 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 require 'html/pipeline'
-#require 'task_list/filter'
+require 'task_list/filter'
 
 module Redmine
   module WikiFormatting

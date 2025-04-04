@@ -1,4 +1,3 @@
-Rails.application.config.to_prepare do
 module EasyThemeDesigner
   class Hooks < Redmine::Hook::ViewListener
 
@@ -22,5 +21,4 @@ module EasyThemeDesigner
     end
 
   end
-end
 end

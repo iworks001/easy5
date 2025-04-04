@@ -1,4 +1,3 @@
-Rails.application.config.to_prepare do
 module EasyButtons
   class Hooks < Redmine::Hook::ViewListener
 
@@ -32,5 +31,4 @@ module EasyButtons
     end
 
   end
-end
 end

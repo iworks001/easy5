@@ -1,4 +1,3 @@
-Rails.application.config.to_prepare do
 module EasyQuickProjectPlanner
   class Hooks < Redmine::Hook::ViewListener
 
@@ -19,5 +18,4 @@ module EasyQuickProjectPlanner
     end
 
   end
-end
 end
