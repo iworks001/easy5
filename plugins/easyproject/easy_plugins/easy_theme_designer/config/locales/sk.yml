@@ -1,0 +1,47 @@
+---
+sk:
+  button_create_easy_theme_and_apply: Uložiť a použiť
+  button_easy_theme_design_choose: Použiť
+  button_new_easy_theme_design: Nový vzhľad
+  button_switch_color_toggler: Zmeniť farby
+  button_turn_off_easy_theme_designer: Vypnúť
+  button_update_easy_theme_and_apply: Uložiť a použiť‌
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: Predvolená je zelená‌
+      button2_background: Predvolená je šedá‌
+      button3_background: Napr. tlačidlo novej úlohy v projektovom menu
+      links_color: Zmeniť farbu všetkých bežných odkazov
+      top_menu_links_color: Farba odkazov v hornej lište‌
+      top_menu_sub_links_color: Farba odkazov podponuky v hornej lište
+    names:
+      button1_background: Farba pozadia hlavných tlačidiel
+      button1_color: Farba hlavných tlačidiel
+      button2_background: Farba pozadia tlačidiel na druhej úrovni
+      button2_color: Farba tlačidiel na druhej úrovni
+      button3_background: Farba pozadia tlačidiel na tretej úrovni
+      button3_color: Farba tlačidiel na tretej úrovni
+      links_color: Farba odkazov‌
+      top_menu_links_color: Farba odkazov v hornom menu
+      top_menu_sub_links_color: Farba odkazov v menu 'ďalšie'
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_description: Jednoduché prispôsobenia vzhľadu‌
+  easy_theme_designer_plugin_name: Používateľský design
+  easy_theme_designer:
+    setting_enable_issue_theming: Povoliť individuálny vzhľad úlohy‌
+    setting_enable_project_theming: Povoliť individuálny vzhľad projektu‌
+    setting_enable_user_theming: Povoliť používateľovi zmenu vzhľadu‌
+  error_easy_theme_design_is_internal: Vzhľad nie je možné odstrániť
+  field_background_image: Obrázok na pozadí
+  field_easy_theme_design: Používateľský vzhľad
+  field_external_css_file: Načítať CSS zo súboru‌
+  field_logo: Logo
+  field_primary_color: Primárna farba‌
+  field_secondary_color: Farba pozadia
+  header_easy_theme_designer: Návrh vzhľadu
+  hint_primary_color: Farba hornej lišty, aktívnych položiek menu, primárnych tlačidiel
+    a atď...
+  hint_secondary_color: Farba odkazov, sekundárrne tlačidlá, farba ikon atď...
+  title_edit_easy_theme_design: 'Upraviť vzhľad: %{name}'
+  title_new_easy_theme_design: Nový vzhľad
+  warning_failed_to_compile: 'Nepodarilo sa skompilovať súbor: %{name}'

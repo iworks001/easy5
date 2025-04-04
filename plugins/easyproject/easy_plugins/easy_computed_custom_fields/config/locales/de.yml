@@ -1,0 +1,64 @@
+---
+de:
+  button_recalculate_computed_from_query: Benutzerdefinierte Felder neu berechnen
+  cf_token_today:
+    description: cf_token_heute
+    title: cf_token_heute
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_name: Benutzerdefinierte Felder mit Formel
+  easy_computed_from_query_available_formula:
+    bool_count: Ja/Nein von der Anzahl (Ja, wenn die Anzahl der Werte größer als Null
+      ist)
+    bool_sum: Ja/Nein von der Summe (Ja, wenn die Summe der Werte größer als Null
+      ist)
+    count: Anzahl (Anzahl der Werte)
+    first: Erster (erster nicht leerer Wert)
+    join: Verbinden (verbindet Listen zu einer einzigen)
+    last: Letzter (letzter nicht leerer Wert)
+    max: Max (Maximum aus  den Werten)
+    min: Min (Minimum aus den Werten)
+    sum: Summe (Summe der Werte)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: Berechnete Felder aus dem Filter
+    easy_rake_task_computed_today:
+      caption: CF mit Token heute neu berechnen
+  error_computed_custom_field_cfexistence: benutzerdefiniertes Feld mit der ID %{id}
+    existiert nicht.
+  error_computed_custom_field_not_float: Token ist kein gültiges Gleitkomma-Zahlenmuster
+  error_computed_custom_field_not_int: Token ist kein gültiges Zahlenmuster
+  error_computed_custom_field_self_dependency: Selbstabhängigkeit ist nicht aktiviert
+  error_computed_custom_field_unknown_symbols: 'folgende Symbole sind nicht definiert:
+    %{symbols}'
+  field_easy_computed_token: Formel
+  field_easy_computed_token_format: Format des berechneten Feldes
+  fields_for_computed_token_field: Felder
+  heading_easy_computed_from_query_define_filter: Filter definieren
+  label_easy_computed_from_query: Berechnetes Feld aus dem Filter
+  label_easy_computed_from_query_column: Spalte
+  label_easy_computed_from_query_entity_filter: Entitätsfilter
+  label_easy_computed_from_query_formula: Formel
+  label_easy_computed_token: Berechnetes Feld
+  label_easy_computed_token_group_assigned_to: Zugewiesen zu
+  label_easy_computed_token_group_issue_parent: Übergeordnete Aufgabe
+  label_easy_computed_token_group_issue_priority: Aufgabenpriorität
+  label_easy_computed_token_group_parent: Übergeordnetes Projekt
+  label_easy_computed_token_group_principal: Benutzer
+  label_easy_computed_token_group_time_entry_activity: Aktivität (Zeit)
+  label_easy_issue_dates:
+    date: Datum
+  label_easy_nested:
+    children: Feldersummen der Unterordnungen
+    descendants: Feldersummen der Nachfahren
+  label_easy_project_dates:
+    date: Datum
+  label_easy_user_dates:
+    date: Datum
+  notice_delayed_update: Werter werden innerhalb von 10 Minuten berechnet
+  related_custom_fields_for_computed_token: Verwandte benutzerdefinierte Felder
+  related_fields_for_computed_token: Verwandte Felder
+  self_custom_fields_for_computed_token: Eigene benutzerdefinierte Felder
+  self_fields_for_computed_token: Eigene Felder
+  text_easy_computed_token_edit_not_allowed: Bearbeitung ist nicht erlaubt
+  text_help_easy_computed_token_html: Doppelklicken Sie auf das Symbol im Menü unten,
+    um es hinzuzufügen.

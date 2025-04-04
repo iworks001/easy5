@@ -1,0 +1,45 @@
+---
+ko:
+  button_create_easy_theme_and_apply: 저장 및 적용
+  button_easy_theme_design_choose: 선택
+  button_new_easy_theme_design: 신규 디자인 추가
+  button_switch_color_toggler: 색상 변경
+  button_turn_off_easy_theme_designer: 끄기
+  button_update_easy_theme_and_apply: 저장 및 적용
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: 기본값은 녹색
+      button2_background: 기본값은 회색
+      button3_background: 프로젝트 메뉴에서 신규 일감 버튼
+      links_color: 모든 일반적인 링크의 색상 변경
+      top_menu_links_color: 상단 메뉴 바에서 링크의 색상
+      top_menu_sub_links_color: 상단 메뉴 바에서 하위 메뉴 링크의 색상
+    names:
+      button1_background: 기본 버튼의 배경색
+      button1_color: 주 버튼색
+      button2_background: 부 버튼의 배경색
+      button2_color: 부 버튼색
+      button3_background: 3-레벨 버튼의 배경색
+      button3_color: 3-레벨 버튼의 색
+      links_color: 링크의 색상
+      top_menu_links_color: 상위 메뉴 링크의 색상
+      top_menu_sub_links_color: 메뉴 'more' 의 링크 색상
+  easy_theme_designer_plugin_author: Easy Software Ltd
+  easy_theme_designer_plugin_description: 간단한 브랜딩 디자이너
+  easy_theme_designer_plugin_name: 사용자 정의 브랜드
+  easy_theme_designer:
+    setting_enable_issue_theming: 일감 콘텍스트의 개별 디자인 허용
+    setting_enable_project_theming: 프로젝트 컨텍스트의 개별 디자인 허용
+    setting_enable_user_theming: 사용자가 자신의 테마를 변경할 수 있음
+  error_easy_theme_design_is_internal: 테마는 삭제할 수 없습니다
+  field_background_image: 배경 이미지
+  field_easy_theme_design: 사용자 정의 디자인
+  field_external_css_file: 파일로 부터 CSS 적재
+  field_logo: 로고
+  field_primary_color: 주 색상
+  field_secondary_color: 배경색
+  header_easy_theme_designer: 사용자 정의 브랜딩
+  hint_primary_color: 상단 메뉴 바, 활성 메뉴 항목, 주 버튼 등의 색상
+  hint_secondary_color: 하위 메뉴 링크, 보조 버튼, 아이콘 색 등의 색
+  title_edit_easy_theme_design: '디자인 변경: %{name}'
+  title_new_easy_theme_design: 신규 디자인

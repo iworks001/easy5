@@ -1,0 +1,37 @@
+<div class="contextual">
+  <%= link_to(easy_theme_designs_path, :class => 'back') do %>
+    <i class="icon-back"></i>
+    <%= l(:button_back) -%>
+  <% end -%>
+</div>
+<%= title(l(:title_edit_easy_theme_design, :name => @easy_theme.title)) %>
+
+<%= labelled_form_for(@easy_theme, :html => {:class => 'tabular'}) do |f| %>
+  <div class="splitcontent">
+    <div class="splitcontentleft"><%= render(:partial => 'form', :locals => {:f => f}) %></div>
+    <div class="splitcontentright">
+      <% if @easy_theme.extra_css_properties.present? %>
+        <%= content_tag(:pre, @easy_theme.extra_css_properties.to_yaml.html_safe) %>
+      <% end -%>
+      <% if @easy_theme.css.present? %>
+        <%= link_to(l(:button_download), 'javascript:void(0)', :onclick => '$("#custom_css_syntaxhl").toggle({duration: 0, complete: function(){$("#custom_css_raw").toggle()}});') %>
+        <div id="custom_css_syntaxhl">
+          <%= render(:partial => 'common/file', :locals => {:filename => 'custom.css', :content => @easy_theme.css}) -%>
+        </div>
+        <div id="custom_css_raw" style="display: none">
+          <%= text_area_tag('css', @easy_theme.css, :style => 'width:90%;min-height:300px') %>
+        </div>
+      <% end -%>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div class="buttons form-actions">
+    <%= f.submit(l(:button_update)) %>
+    <%= submit_tag(l(:button_update_easy_theme_and_apply), :name => :continue, :class => 'button') unless f.object.in_use? -%>
+  </div>
+<% end -%>
+
+<%= render('form_scripts') %>
+<%= content_for(:header_tags) do %>
+  <%= stylesheet_link_tag('scm') %>
+<% end %>

@@ -1,0 +1,48 @@
+---
+cs:
+  button_create_easy_theme_and_apply: Vytvořit a použít
+  button_easy_theme_design_choose: Použít
+  button_new_easy_theme_design: Nový vzhled
+  button_switch_color_toggler: Prohodit barvy
+  button_turn_off_easy_theme_designer: Vypnout
+  button_update_easy_theme_and_apply: Uložit a použít
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: Výchozí je zelená
+      button2_background: Výchozí je šedá
+      button3_background: Např. Tlačítko nový úkol v projektovém menu
+      links_color: Změnit barvu všech běžných odkazů
+      top_menu_links_color: Barva odkazů v horní liště
+      top_menu_sub_links_color: Barva odkazů podnabídky v horní liště
+    names:
+      button1_background: Barva pozadí primárních tlačítek
+      button1_color: Barva primárních tlačítek
+      button2_background: Barva pozadí sekundárních tlačítek
+      button2_color: Barva sekundárních tlačítek
+      button3_background: Barva pozadí tlačítek třetí úrovně
+      button3_color: Barva tlačítek 3. úrovně
+      links_color: Barva odkazů
+      top_menu_links_color: Barva odkazů horního menu
+      top_menu_sub_links_color: Barva odkazů v menu 'další'
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_description: Jednoduché přizpůsobení vzhledu
+  easy_theme_designer_plugin_name: Custom branding
+  easy_theme_designer:
+    setting_enable_issue_theming: Povolit individuální vzhled úkolu
+    setting_enable_project_theming: Povolit individuální vzhled projektu
+    setting_enable_user_theming: Povolit změnu vzhledu uživateli
+  error_easy_theme_design_is_internal: Vzhled nelze smazat
+  field_background_image: Obrázek na pozadí
+  field_easy_theme_design: Vlastní vzhled
+  field_external_css_file: Načíst CSS ze souboru
+  field_logo: Logo
+  field_primary_color: Primární barva
+  field_secondary_color: Barva pozadí
+  header_easy_theme_designer: Návrhář vzhledu
+  hint_primary_color: Barva horní lišty, aktivních položek menu, primárních tlačítek
+    atd.
+  hint_secondary_color: Barva odkazů podnabídky, sekundárních tlačítek, barva ikon
+    atd.
+  title_edit_easy_theme_design: 'Upravit vzhled: %{name}'
+  title_new_easy_theme_design: Nový vzhled
+  warning_failed_to_compile: 'Nepodařilo se zkompilovat soubor: %{name}'

@@ -1,0 +1,24 @@
+---
+fi:
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_author_url: http://www.easyproject.cz/
+  error_computed_custom_field_cfexistence: custom kenttä id %{id} ei ole olemassa.
+  error_computed_custom_field_not_float: merkki ei kelpaa kelluva numero kuvio
+  error_computed_custom_field_not_int: merkki ei ole voimassa numeerinen malli
+  error_computed_custom_field_self_dependency: itse riippuvuus ei ole käytössä
+  error_computed_custom_field_unknown_symbols: seuraavia merkkejä ei ole määritelty:%{symbols}
+  field_easy_computed_token: Symbolinen
+  field_easy_computed_token_format: Tietokonetomografia kenttämuoto
+  fields_for_computed_token_field: kentät
+  label_easy_computed_token: Lasketaan kentän
+  label_easy_computed_token_group_assigned_to: Määrätty
+  label_easy_computed_token_group_issue_priority: Kysymys ensisijaisesti
+  label_easy_computed_token_group_principal: Käyttäjä
+  label_easy_computed_token_group_time_entry_activity: Toimintaa (aika)
+  related_custom_fields_for_computed_token: Related mukautettuja kenttiä
+  related_fields_for_computed_token: Liittyvillä aloilla
+  self_custom_fields_for_computed_token: Omia kenttiä
+  self_fields_for_computed_token: Omien alojensa
+  text_easy_computed_token_edit_not_allowed: Edit ei ole sallittua
+  text_help_easy_computed_token_html: Tuplaklikkaa symboli valitse lisätä sen.<br
+    />

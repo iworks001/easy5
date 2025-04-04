@@ -1,0 +1,50 @@
+---
+nl:
+  button_recalculate_computed_from_query: Herbereken aangepaste velden
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_author_url: http://www.easyproject.cz/
+  easy_computed_custom_fields_plugin_name: Aangepaste velden met formule
+  easy_computed_from_query_available_formula:
+    bool_count: Ja/Nee van aantal (Ja als aantal waardes groter is dan nul)
+    bool_sum: Ja/Nee van som (Ja als som van waardes groter is dan nul)
+    count: Aantal (aantal waardes)
+    first: Eerste (eerste niet lege waarde)
+    join: Deelnemen (voegt lijsten samen)
+    last: Laatste (laatste niet lege waarde)
+    max: Max (maximum van waardes)
+    min: Min (minimum van waardes)
+    sum: Som (som van waardes)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: Berekende velden uit filter
+  error_computed_custom_field_cfexistence: aangepast veld met id %{id} bestaat niet.
+  error_computed_custom_field_not_float: token is geen geldig zwevendekommapatroon
+  error_computed_custom_field_not_int: token is geen geldig numeriek patroon
+  error_computed_custom_field_self_dependency: zelfafhankelijkheid is niet ingeschakeld
+  error_computed_custom_field_unknown_symbols: 'de volgende symbolen zijn niet gedefinieerd:
+    %{symbols}'
+  field_easy_computed_token: Token
+  field_easy_computed_token_format: Formaat computerveld
+  fields_for_computed_token_field: velden
+  heading_easy_computed_from_query_define_filter: Definieer filter
+  label_easy_computed_from_query: Berekend veld van filter
+  label_easy_computed_from_query_column: Kolom
+  label_easy_computed_from_query_formula: Formule
+  label_easy_computed_token: Berekend veld
+  label_easy_computed_token_group_assigned_to: Toegewezen aan
+  label_easy_computed_token_group_issue_parent: Ouder taak
+  label_easy_computed_token_group_issue_priority: Prioriteit kwestie
+  label_easy_computed_token_group_parent: Ouder
+  label_easy_computed_token_group_principal: Gebruiker
+  label_easy_computed_token_group_time_entry_activity: Activiteit(tijd)
+  label_easy_nested:
+    children: Kinderen Velden som
+    descendants: Aflopende velden som
+  notice_delayed_update: Waardes worden binnen 10 minuten berekend
+  related_custom_fields_for_computed_token: Gerelateerde aangepaste velden
+  related_fields_for_computed_token: Gerelateerde velden
+  self_custom_fields_for_computed_token: Eigen aangepaste velden
+  self_fields_for_computed_token: Eigen velden
+  text_easy_computed_token_edit_not_allowed: Bewerken is niet toegestaan
+  text_help_easy_computed_token_html: Dubbelklik op het symbool in het rechtermenu
+    om deze toe te voegen.<br />

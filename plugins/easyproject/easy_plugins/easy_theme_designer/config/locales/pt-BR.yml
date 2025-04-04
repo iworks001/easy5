@@ -1,0 +1,47 @@
+---
+pt-BR:
+  button_create_easy_theme_and_apply: Criar e usar
+  button_easy_theme_design_choose: Escolher
+  button_new_easy_theme_design: Adicionar novo design
+  button_switch_color_toggler: Trocar cor
+  button_turn_off_easy_theme_designer: Desligar
+  button_update_easy_theme_and_apply: Salvar e usar
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: Padrões são verdes
+      button2_background: Padrões são cinza
+      button3_background: 'Por exemplo: Novo botão de tarefa no menu de projeto'
+      links_color: Mudar cor de todos os links comuns
+      top_menu_links_color: Cores dos links no menu superior do topo
+      top_menu_sub_links_color: Cores dos links no sub menu superior do topo da barra
+    names:
+      button1_background: Cor de fundo de botões primários
+      button1_color: Cor de botões primários
+      button2_background: Cor de fundo de botões secundários
+      button2_color: Cor de botões secundários
+      button3_background: Cor de fundo de botões de terceiro nível
+      button3_color: Cor de botões de terceiro nível
+      links_color: Cor dos links
+      top_menu_links_color: Cor dos links do menu superior
+      top_menu_sub_links_color: Cor dos links no menu 'mais'
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_description: Desenhista de marca simples
+  easy_theme_designer_plugin_name: Marca personalizada
+  easy_theme_designer:
+    setting_enable_issue_theming: Permitir desenho individual de contexto de tarefa
+    setting_enable_project_theming: Permitir desenho individual de contexto de projeto
+    setting_enable_user_theming: Permitir que os usuários alterem seus temas
+  error_easy_theme_design_is_internal: Tema não pode ser excluído
+  field_background_image: Imagem de fundo
+  field_easy_theme_design: Desenho personalizado
+  field_external_css_file: Carregar CSS do arquivo
+  field_logo: Logo
+  field_primary_color: Cor primária
+  field_secondary_color: Cor de fundo
+  header_easy_theme_designer: Marca personalizada
+  hint_primary_color: Cor da barra de menu superior, itens de menu ativos, botões
+    primários, etc.
+  hint_secondary_color: Cor dos links de submenu, botões secundários, cores de ícones,
+    etc.
+  title_edit_easy_theme_design: 'Atualizar desenho: %{name}'
+  title_new_easy_theme_design: Novo design

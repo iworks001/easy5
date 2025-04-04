@@ -1,0 +1,48 @@
+---
+de:
+  button_create_easy_theme_and_apply: Speichern & anwenden
+  button_easy_theme_design_choose: Auswählen
+  button_new_easy_theme_design: Neues Design hinzufügen
+  button_switch_color_toggler: Farben wechseln
+  button_turn_off_easy_theme_designer: Ausschalten
+  button_update_easy_theme_and_apply: Speichern & anwenden
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: Standards sind grün
+      button2_background: Standards sind grau
+      button3_background: Z.B. Schaltfläche Neue Aufgabe im Projektmenü
+      links_color: Farbe aller gängigen Links ändern
+      top_menu_links_color: Farbe der Links in der Hauptmenüleiste
+      top_menu_sub_links_color: Farbe der Links in Untermenüs in der Hauptmenüleiste
+    names:
+      button1_background: Hintergrundfarbe der primären Schaltflächen
+      button1_color: Farbe der primären Schaltflächen
+      button2_background: Hintergrundfarbe der sekundären Schaltflächen
+      button2_color: Farbe der sekundären Schaltflächen
+      button3_background: Hintergrundfarbe der Schaltflächen der 3. Ebene
+      button3_color: Farbe der Schaltflächen der 3. Ebene
+      links_color: Farbe der Links
+      top_menu_links_color: Farbe der Hauptmenü-Links
+      top_menu_sub_links_color: Farbe der Links im Menü "mehr"
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_description: Einfacher Markendesigner
+  easy_theme_designer_plugin_name: Individuelles Branding
+  easy_theme_designer:
+    setting_enable_issue_theming: Individuelle Gestaltung des Aufgabenkontextes erlauben
+    setting_enable_project_theming: Individuelle Gestaltung des Projektkontextes erlauben
+    setting_enable_user_theming: Benutzern erlauben, ihr Thema zu ändern
+  error_easy_theme_design_is_internal: Thema kann nicht gelöscht werden
+  field_background_image: Hintergrundbild
+  field_easy_theme_design: Benutzerdefiniertes Design
+  field_external_css_file: CSS aus Datei laden
+  field_logo: Logo
+  field_primary_color: Hauptfarbe
+  field_secondary_color: Hintergrundfarbe
+  header_easy_theme_designer: Benutzerdefiniertes Branding
+  hint_primary_color: Farbe der Hauptmenüleiste, aktiven Menüpunkte, Primärschaltflächen
+    usw.
+  hint_secondary_color: Farbe der Untermenüpunkte, sekundären Schaltflächen, Icons
+    usw.
+  title_edit_easy_theme_design: 'Design aktualisieren: %{name}'
+  title_new_easy_theme_design: Neues Design
+  warning_failed_to_compile: 'Datei konnte nicht kompiliert werden: %{name}'

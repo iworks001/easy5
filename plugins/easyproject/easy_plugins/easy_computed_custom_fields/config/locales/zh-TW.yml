@@ -1,0 +1,23 @@
+---
+zh-TW:
+  easy_computed_custom_fields_plugin_author: 易軟件
+  easy_computed_custom_fields_plugin_author_url: http://www.easyproject.cz/
+  error_computed_custom_field_cfexistence: 自定義字段id為%{id}不存在。
+  error_computed_custom_field_not_float: 令牌是不是有效的浮點數模式
+  error_computed_custom_field_not_int: 令牌是不是有效的數值模式
+  error_computed_custom_field_self_dependency: 未啟用自我依賴
+  error_computed_custom_field_unknown_symbols: 沒有定義以下符號：%{symbols}
+  field_easy_computed_token: 象徵
+  field_easy_computed_token_format: 計算字段格式
+  fields_for_computed_token_field: 領域
+  label_easy_computed_token: 計數字段
+  label_easy_computed_token_group_assigned_to: 分配給
+  label_easy_computed_token_group_issue_priority: 發行優先
+  label_easy_computed_token_group_principal: 用戶
+  label_easy_computed_token_group_time_entry_activity: 活動（時間）
+  related_custom_fields_for_computed_token: 相關的自定義字段
+  related_fields_for_computed_token: 相關領域
+  self_custom_fields_for_computed_token: 自己的自定義字段
+  self_fields_for_computed_token: 自己的田地
+  text_easy_computed_token_edit_not_allowed: 不允許編輯
+  text_help_easy_computed_token_html: 雙擊符號選擇添加它。<br />

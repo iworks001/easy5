@@ -1,0 +1,48 @@
+---
+tr:
+  button_create_easy_theme_and_apply: Kaydet ve uygula
+  button_easy_theme_design_choose: Seç
+  button_new_easy_theme_design: Yeni tasarım ekle
+  button_switch_color_toggler: Renkleri değiştir
+  button_turn_off_easy_theme_designer: Kapat
+  button_update_easy_theme_and_apply: Kaydet ve uygula‌
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: Varsayılanlar yeşil
+      button2_background: Varsayılanlar gri
+      button3_background: Örneğin  proje menüsünde yeni iş düğmesi
+      links_color: Tüm ortak bağlantıların rengini değiştirme
+      top_menu_links_color: Üst menü çubuğundaki bağlantıların rengi
+      top_menu_sub_links_color: Üst menü çubuğunda alt menülerdeki bağlantıların rengi
+    names:
+      button1_background: Ana düğmelerin arka plan rengi
+      button1_color: Ana düğmelerin rengi
+      button2_background: İkincil düğmelerin arka plan rengi
+      button2_color: İkincil düğmelerin rengi
+      button3_background: 3. düzey düğmelerin arka plan rengi
+      button3_color: 3. seviye düğmelerin rengi
+      links_color: Bağlantıların rengi
+      top_menu_links_color: Üst menü bağlantılarının rengi
+      top_menu_sub_links_color: "'Daha' menüsündeki linklerin rengi"
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_description: Basit marka tasarımcısı
+  easy_theme_designer_plugin_name: Özel marka
+  easy_theme_designer:
+    setting_enable_issue_theming: Özgün iş bağlamı tasarımına izin ver
+    setting_enable_project_theming: Özel proje bağlamı tasarımına izin ver
+    setting_enable_user_theming: Kullanıcıların temasını değiştirmelerine izin ver
+  error_easy_theme_design_is_internal: Tema silinemiyor
+  field_background_image: Arka plan görüntüsü
+  field_easy_theme_design: Özel tasarım
+  field_external_css_file: CSS'yi dosyadan yükle
+  field_logo: Logo
+  field_primary_color: Ana renk
+  field_secondary_color: Arka plan rengi
+  header_easy_theme_designer: Özel marka kimliği
+  hint_primary_color: Üst menü çubuğunun rengi, etkin menü öğeleri, birincil düğmeler
+    vb.
+  hint_secondary_color: Alt menü bağlantılarının rengi, ikincil düğmeler, simgelerin rengi
+    vb.
+  title_edit_easy_theme_design: 'Tasarımı güncelle: %{name}'
+  title_new_easy_theme_design: Yeni tasarım
+  warning_failed_to_compile: 'Dosya derlenemedi: %{name}'

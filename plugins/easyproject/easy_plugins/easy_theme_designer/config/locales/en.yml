@@ -1,0 +1,47 @@
+---
+en:
+  button_create_easy_theme_and_apply: Save & apply
+  button_easy_theme_design_choose: Choose
+  button_new_easy_theme_design: Add new design
+  button_switch_color_toggler: Switch colors
+  button_turn_off_easy_theme_designer: Turn it off
+  button_update_easy_theme_and_apply: Save & apply
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: Defaults are green
+      button2_background: Defaults are grey
+      button3_background: E.g. New task button in project menu
+      links_color: Change color of all common links
+      top_menu_links_color: Color of links in top-menu bar
+      top_menu_sub_links_color: Color of links in sub-menus in top-menu bar
+    names:
+      button1_background: Background color of primary buttons
+      button1_color: Color of primary buttons
+      button2_background: Background color of secondary buttons
+      button2_color: Color of secondary buttons
+      button3_background: Background color of 3rd-level buttons
+      button3_color: Color of 3rd-level buttons
+      links_color: Color of links
+      top_menu_links_color: Color of top menu links
+      top_menu_sub_links_color: Color of links in menu 'more'
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_author_url: https://www.easysoftware.com/
+  easy_theme_designer_plugin_description: Simple branding designer
+  easy_theme_designer_plugin_name: Custom branding
+  easy_theme_designer:
+    setting_enable_issue_theming: Allow individual design of task context
+    setting_enable_project_theming: Allow individual design of project context
+    setting_enable_user_theming: Allow users to change their theme
+  error_easy_theme_design_is_internal: Theme can not be deleted
+  field_background_image: Background image
+  field_easy_theme_design: Custom design
+  field_external_css_file: Load CSS from file
+  field_logo: Logo
+  field_primary_color: Primary color
+  field_secondary_color: Background color
+  header_easy_theme_designer: Custom branding
+  hint_primary_color: Color of top-menu bar, active menu items, primary buttons etc.
+  hint_secondary_color: Color of sub-menu links, secondary buttons, icons color etc.
+  title_edit_easy_theme_design: 'Update design: %{name}'
+  title_new_easy_theme_design: New design
+  warning_failed_to_compile: 'Failed to compile file: %{name}'

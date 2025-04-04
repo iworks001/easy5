@@ -1,0 +1,49 @@
+---
+ro:
+  button_recalculate_computed_from_query: Recalculare câmpuri personalizate
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_author_url: http://www.easyproject.cz/
+  easy_computed_custom_fields_plugin_name: Câmpurile personalizate cu formulă
+  easy_computed_from_query_available_formula:
+    bool_count: Da/Nu din calcul (Da dacă calculul valorilor este mai mare ca zero)
+    bool_sum: Da/Nu din sumă (Da dacă suma valorilor este mai mare ca zero)
+    count: Calcul (calcularea valorilor)
+    first: Prima (prima fără valoare liberă)
+    join: Alăturare (Alăturare liste într-una singură)
+    last: Ultima (ultima fără valoare liberă)
+    max: Max (maxim de valori)
+    min: Min (minim de valori)
+    sum: Sumă (suma valorilor)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: Câmpuri calculate din filtru
+  error_computed_custom_field_cfexistence: câmpul personalizat cu id %{id}  nu există.
+  error_computed_custom_field_not_int: token nu este un model numeric valabil
+  error_computed_custom_field_self_dependency: dependența de sine nu este activată
+  error_computed_custom_field_unknown_symbols: 'următoarele simboluri nu sunt definite:
+    %{symbols}'
+  field_easy_computed_token: Formula
+  field_easy_computed_token_format: Format câmp calculat
+  fields_for_computed_token_field: câmpuri
+  heading_easy_computed_from_query_define_filter: Definire filtru
+  label_easy_computed_from_query: Câmp calculat din filtru
+  label_easy_computed_from_query_column: Coloană
+  label_easy_computed_from_query_formula: Formula
+  label_easy_computed_token: Câmp calculat
+  label_easy_computed_token_group_assigned_to: Atribuit către
+  label_easy_computed_token_group_issue_parent: Sarcina părinte
+  label_easy_computed_token_group_issue_priority: Prioritate sarcină
+  label_easy_computed_token_group_parent: Părinte
+  label_easy_computed_token_group_principal: Utilizator
+  label_easy_computed_token_group_time_entry_activity: Activitate (timp)
+  label_easy_nested:
+    children: Sume câmpuri copil
+    descendants: Sume câmpuri descendente
+  notice_delayed_update: Valorile vor fi calculate în decurs de 10 minute
+  related_custom_fields_for_computed_token: Câmpuri personalizate înrudite
+  related_fields_for_computed_token: Câmpuri asociate
+  self_custom_fields_for_computed_token: Câmpuri personalizate proprii
+  self_fields_for_computed_token: Câmpuri proprii
+  text_easy_computed_token_edit_not_allowed: Editarea nu este permisă
+  text_help_easy_computed_token_html: Dublu clic pe simbol în meniul de mai jos pentru
+    a-l adăuga .<br />

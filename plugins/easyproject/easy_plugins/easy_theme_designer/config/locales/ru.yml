@@ -1,0 +1,46 @@
+---
+ru:
+  button_create_easy_theme_and_apply: Сохранить и применить
+  button_easy_theme_design_choose: Выбрать
+  button_new_easy_theme_design: Добавить новый дизайн
+  button_switch_color_toggler: Поменять цвета
+  button_turn_off_easy_theme_designer: Выключить
+  button_update_easy_theme_and_apply: Сохранить  и применить
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: По умолчанию зелёные
+      button2_background: По умолчанию серые
+      button3_background: Например, кнопка «Создать задачу» в меню проекта
+      links_color: Поменять цвет всех общих ссылок
+      top_menu_links_color: Цвет ссылок в главном верхнем меню
+      top_menu_sub_links_color: Цвет ссылок в подменю главного верхнего меню
+    names:
+      button1_background: Цвет фона главных кнопок
+      button1_color: Цвет главных кнопок
+      button2_background: Цвет фона остальных кнопок
+      button2_color: Цвет остальных кнопок
+      button3_background: Цвет фона кнопок 3-го уровня
+      button3_color: Цвет кнопок 3-го уровня
+      links_color: Цвет ссылок
+      top_menu_links_color: Цвет ссылок в главном меню
+      top_menu_sub_links_color: Цвет ссылок в меню «Дополнительно»
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_description: Простая настройка дизайна
+  easy_theme_designer_plugin_name: Настройка дизайна
+  easy_theme_designer:
+    setting_enable_issue_theming: Разрешить индивидуальный дизайн контекста задач
+    setting_enable_project_theming: Разрешить индивидуальный дизайн контекста проектов
+    setting_enable_user_theming: Разрешить пользователям изменять оформление
+  error_easy_theme_design_is_internal: Нельзя удалить тему
+  field_background_image: Фоновое изображение
+  field_easy_theme_design: Тема
+  field_external_css_file: Загрузить CSS из файла
+  field_logo: Логотип
+  field_primary_color: Основной цвет
+  field_secondary_color: Цвет фона
+  header_easy_theme_designer: Настройка дизайна
+  hint_primary_color: Цвет верхнего меню, дополнительного меню, главных кнопок и т.д.
+  hint_secondary_color: Цвет ссылок в подменю, вторичных кнопок, иконок и т.д.
+  title_edit_easy_theme_design: 'Обновить дизайн: %{name}'
+  title_new_easy_theme_design: Создать дизайн
+  warning_failed_to_compile: 'Не удалось скомпилировать файл: %{name}'

@@ -1,0 +1,62 @@
+---
+es:
+  button_recalculate_computed_from_query: Recalcular campos personalizados
+  cf_token_today:
+    description: cf_token_today
+    title: cf_token_today
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_name: Campos personalizados con fórmula
+  easy_computed_from_query_available_formula:
+    bool_count: Sí/No desde recuento (Sí cuando el recuento de valores sea mayor a
+      cero)
+    bool_sum: Sí/No desde suma (Sí cuando la suma de valores sea mayor a cero)
+    count: Recuento (recuento de valores)
+    first: Primero (primer valor no vacío)
+    join: Unir (unir las listas en una)
+    last: Último (último valor no vacío)
+    max: Máx (máximo desde valores)
+    min: Mín (mínimo desde valores)
+    sum: Suma (suma de valores)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: Campos calculados desde filtro
+    easy_rake_task_computed_today:
+      caption: Recalcular CF con token hoy
+  error_computed_custom_field_cfexistence: no existe el campo personalizado con id
+    %{id}.
+  error_computed_custom_field_not_float: el tóken no es un patrón de número flotante
+    válido
+  error_computed_custom_field_not_int: el tóken no es un patrón numérico válido
+  error_computed_custom_field_self_dependency: la autodependencia no está activada
+  error_computed_custom_field_unknown_symbols: los siguientes símbolos no están definidos:%{symbols}
+  field_easy_computed_token: Fórmula
+  field_easy_computed_token_format: Formato de campo calculado
+  fields_for_computed_token_field: campos
+  heading_easy_computed_from_query_define_filter: Definir filtro
+  label_easy_computed_from_query: Campo computado desde filtro
+  label_easy_computed_from_query_column: Columna
+  label_easy_computed_from_query_entity_filter: Filtro de entidad
+  label_easy_computed_from_query_formula: Fórmula
+  label_easy_computed_token: Campo calculado
+  label_easy_computed_token_group_assigned_to: Asignado a
+  label_easy_computed_token_group_issue_parent: Tarea matriz
+  label_easy_computed_token_group_issue_priority: Prioridad de tarea
+  label_easy_computed_token_group_principal: Usuario
+  label_easy_computed_token_group_time_entry_activity: Actividad (tiempo)
+  label_easy_issue_dates:
+    date: Fecha
+  label_easy_nested:
+    children: Sumas de campos hijos
+    descendants: Sumas de los campos descendientes
+  label_easy_project_dates:
+    date: Fecha
+  label_easy_user_dates:
+    date: Fecha
+  notice_delayed_update: Los valores se calcularán en los próximos 10 minutos
+  related_custom_fields_for_computed_token: Campos personalizados relacionados
+  related_fields_for_computed_token: Campos relacionados
+  self_custom_fields_for_computed_token: Propios campos personalizados
+  self_fields_for_computed_token: Campos propios
+  text_easy_computed_token_edit_not_allowed: No se permite editar
+  text_help_easy_computed_token_html: Haz doble clic en el símbolo de selección en
+    el menú de abajo para añadirla.

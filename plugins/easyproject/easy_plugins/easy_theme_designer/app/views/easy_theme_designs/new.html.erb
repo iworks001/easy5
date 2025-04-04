@@ -1,0 +1,19 @@
+<div class="contextual">
+  <%= link_to(easy_theme_designs_path, :class => 'back') do %>
+    <i class="icon-back"></i>
+    <%= l(:button_back) -%>
+  <% end -%>
+</div>
+<%= title(l(:title_new_easy_theme_design)) %>
+
+<%= labelled_form_for(@easy_theme, :html => {:class => 'tabular'}) do |f| %>
+
+  <%= render(:partial => 'form', :locals => {:f => f}) %>
+
+  <p class="buttons">
+    <%= f.submit(l(:button_create)) %>
+    <%= submit_tag(l(:button_create_easy_theme_and_apply), :name => :continue, :class => 'button') -%>
+  </p>
+<% end -%>
+
+<%= render('form_scripts') %>

@@ -1,0 +1,52 @@
+---
+hu:
+  button_recalculate_computed_from_query: Egyedi mezők újraszámolása
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_name: Egyedi mezők képlettel
+  easy_computed_from_query_available_formula:
+    bool_count: Igen / Nem a számolásból (Igen, ha az értékek összege nagyobb mint
+      nulla)
+    bool_sum: Igen/Nem az összesenből (Igen, ha az összesen érték nagyobb mint nulla)
+    count: Számol (számolás értékei)
+    first: Első (első nem üres érték)
+    join: Összekapcsolás (listák összekapcsolása egy listává)
+    last: Utolsó (utolsó nem üres érték)
+    max: Max (maximum az értékekhez)
+    min: Min (minimum az értékekhez)
+    sum: Összes (értékek összesen)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: Számított mezők szűrő alapján
+  error_computed_custom_field_cfexistence: ezzel az azonosítóval %{id} nem létezik
+    egyedi mezõ.
+  error_computed_custom_field_not_float: az érték nem érvényes valós szám
+  error_computed_custom_field_not_int: az érték nem érvényes egész szám
+  error_computed_custom_field_self_dependency: Mezõ-függetlenség nincs engedélyezve
+  error_computed_custom_field_unknown_symbols: 'az alábbi szimbólumok nincsenek definiálva:
+    %{symbols}'
+  field_easy_computed_token: Érték
+  field_easy_computed_token_format: Számított mezõ formátuma
+  fields_for_computed_token_field: mezõk
+  heading_easy_computed_from_query_define_filter: Szűrő meghatározása
+  label_easy_computed_from_query: Számított mező szűrőből
+  label_easy_computed_from_query_column: Oszlop
+  label_easy_computed_from_query_entity_filter: Bejegyzés szűrő
+  label_easy_computed_from_query_formula: Képlet
+  label_easy_computed_token: Számított mezõ
+  label_easy_computed_token_group_assigned_to: 'Kiosztva neki:'
+  label_easy_computed_token_group_issue_parent: Alapfeladat
+  label_easy_computed_token_group_issue_priority: Hiba prioritása
+  label_easy_computed_token_group_parent: Szülőprojekt
+  label_easy_computed_token_group_principal: Felhasználó
+  label_easy_computed_token_group_time_entry_activity: Tevékenység(idõ)
+  label_easy_nested:
+    children: Alprojekt/alfeladat mezők összegzése
+    descendants: Szülőprojekt/szülőfeladat mezők összegzése
+  notice_delayed_update: Az értékek kiszámításra kerülnek 10 percen belül
+  related_custom_fields_for_computed_token: kapcsolódó egyedi mezõk
+  related_fields_for_computed_token: kapcsolódó mezõk
+  self_custom_fields_for_computed_token: saját egyedi mezõk
+  self_fields_for_computed_token: saját mezõk
+  text_easy_computed_token_edit_not_allowed: Szerkesztés nem engedélyezett
+  text_help_easy_computed_token_html: A jobb oldali menüben kattintson duplán a szimbólum
+    hozzáadásához.<br />

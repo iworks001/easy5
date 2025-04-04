@@ -1,0 +1,54 @@
+<%= error_messages_for(f.object) %>
+<div class="box settings easy-theme-design-form">
+  <p>
+    <%= f.text_field(:title, size: 60, required: true, autofocus: true) %>
+  </p>
+  <% EasyThemeDesign.attached_image_names.each do |image_name| %>
+    <p>
+      <%= f.file_field("[images]#{image_name}", label: image_name.humanize, accept: 'image/*') %>
+      <% if (image = f.object.get_image(image_name)).present? %>
+        <span id="<%= "#{dom_id(f.object)}_#{image_name}" %>">
+          <%= image_tag thumbnail_path(image), style: 'max-height: 30px;' %>
+          <%= link_to '', remove_image_easy_theme_design_path(f.object, image_name: image_name),
+                      method: :delete, title: l(:button_delete), class: 'icon-del',
+                      data: { confirm: l(:text_are_you_sure), remote: true } %>
+        </span>
+      <% end %>
+    </p>
+  <% end %>
+
+  <div id="general_color_pickers" class="color-pickers">
+    <p class="color" title="<%= l(:hint_primary_color) %>"><%= f.text_field(:primary_color, :type => 'color') %></p>
+    <p class="color" title="<%= l(:hint_secondary_color) %>"><%= f.text_field(:secondary_color, :type => 'text') %></p>
+    <!--<div class="reverse-button">-->
+      <!--<%#= link_to('', 'javascript:void(0);', :class => 'icon-refresh', :title => l(:button_switch_color_toggler)) %>-->
+    <!--</div>-->
+    <!--<p class="color" title="<%= l(:hint_secondary_color) %>"><%#= f.text_field(:secondary_color, :type => 'color') %></p>-->
+  </div>
+  <!--<fieldset class="settings">-->
+
+  <div id="easy_theme_design_advanced_form">
+    <fieldset>
+      <legend>
+        <%= l(:label_advanced) %>
+      </legend>
+      <p>
+        <%= f.file_field(:external_css_file, :style => 'width: auto', :accept => 'text/css') -%>
+      </p>
+    </fieldset>
+    <% group = ''%>
+    <% f.object.advanced_fields.each do |field| %>
+      <%= "</fieldset><fieldset><legend>#{field.group}</legend>".html_safe if group != field.group %>
+      <p class="field">
+        <%= label_tag("easy_theme_design_advanced_attribute_#{field}", field.caption.titleize) %>
+        <%= hidden_field_tag("#{f.object_name}[advanced_fields][#{field}]", '') %>
+        <%= check_box_tag("easy_theme_design_advanced_attribute_#{field}", true, f.object.advanced_options[field.name].present?, {:class => 'easy-advanced-attribute-toggle' }) %>
+        <%= text_field_tag("#{f.object_name}[advanced_fields][#{field}]", field.value || EasyThemeDesigner.secondary_css_fields[field.name], :disabled => f.object.advanced_options[field.name].nil?, :type => field.type, :id => "#{f.object_name}_advanced_fields_#{field.name}}") %>
+        <%= content_tag(:span, field.hint) %>
+      </p>
+      <% group = field.group%>
+    <% end %>
+
+  </div>
+  <!--</fieldset>-->
+</div>

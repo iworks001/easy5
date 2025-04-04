@@ -1,0 +1,63 @@
+---
+en:
+  button_recalculate_computed_from_query: Recalculate custom fields
+  cf_token_today:
+    description: cf_token_today
+    title: cf_token_today
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_author_url: https://www.easysoftware.com/
+  easy_computed_custom_fields_plugin_description: ''
+  easy_computed_custom_fields_plugin_name: Custom fields with formula
+  easy_computed_from_query_available_formula:
+    bool_count: Yes/No from count (Yes if count of values is bigger than zero)
+    bool_sum: Yes/No from sum (Yes if sum of values is bigger than zero)
+    count: Count (count of values)
+    first: First (first non empty value)
+    join: Join (joins lists into one)
+    last: Last (last non empty value)
+    max: Max (maximum from values)
+    min: Min (minimum from values)
+    sum: Sum (sum of values)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: Computed fields from filter
+    easy_rake_task_computed_today:
+      caption: Recalculate CF with token today
+  error_computed_custom_field_cfexistence: custom field with id %{id} doesn't exist.
+  error_computed_custom_field_not_float: token is not valid floating number pattern
+  error_computed_custom_field_not_int: token is not valid numeric pattern
+  error_computed_custom_field_self_dependency: self dependency is not enabled
+  error_computed_custom_field_unknown_symbols: 'following symbols are not defined:
+    %{symbols}'
+  field_easy_computed_token: Formula
+  field_easy_computed_token_format: Computed field format
+  fields_for_computed_token_field: fields
+  heading_easy_computed_from_query_define_filter: Define filter
+  label_easy_computed_from_query: Computed field from filter
+  label_easy_computed_from_query_column: Column
+  label_easy_computed_from_query_entity_filter: Entity filter
+  label_easy_computed_from_query_formula: Formula
+  label_easy_computed_token: Computed field
+  label_easy_computed_token_group_assigned_to: Assigned to
+  label_easy_computed_token_group_issue_parent: Parent task
+  label_easy_computed_token_group_issue_priority: Task priority
+  label_easy_computed_token_group_parent: Parent project
+  label_easy_computed_token_group_principal: User
+  label_easy_computed_token_group_time_entry_activity: Activity(time)
+  label_easy_issue_dates:
+    date: Date
+  label_easy_nested:
+    children: Children Fields sums
+    descendants: Descendants fields sums
+  label_easy_project_dates:
+    date: Date
+  label_easy_user_dates:
+    date: Date
+  notice_delayed_update: Values will be computed within 10 minutes
+  related_custom_fields_for_computed_token: Related custom fields
+  related_fields_for_computed_token: Related fields
+  self_custom_fields_for_computed_token: Own custom fields
+  self_fields_for_computed_token: Own fields
+  text_easy_computed_token_edit_not_allowed: Edit is not allowed
+  text_help_easy_computed_token_html: Doubleclick on symbol in  menu below to add
+    it.<br />

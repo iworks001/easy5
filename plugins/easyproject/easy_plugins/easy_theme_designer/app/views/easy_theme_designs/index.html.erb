@@ -1,0 +1,77 @@
+<div class="clear">
+  <div class="contextual">
+    <%= link_to(l(:button_new_easy_theme_design), new_easy_theme_design_path, class: 'icon icon-add button-positive') %>
+    <%= link_to l(:button_import),
+                easy_xml_data_import_settings_path(back_url: request.fullpath),
+                remote: true,
+                class: 'icon icon-import button' %>
+    <% if EasyThemeDesign.in_use %>
+      <%= link_to l(:button_turn_off_easy_theme_designer),
+                  disable_easy_theme_designs_path,
+                  class: 'icon icon-power button-negative' %>
+    <% end %>
+  </div>
+  <%= title(l(:header_easy_theme_designer)) -%>
+</div>
+<%= form_tag(save_settings_easy_theme_designs_path, id: 'easy_theme_designer_for', method: 'PATCH') do %>
+  <%= toggling_fieldset(l(:label_settings)) do %>
+    <div class="checkboxes">
+      <%= labelled_fields_for('settings') do |f| %>
+        <% %w(user).each do |x_type| %>
+          <%= f.check_box("enable_#{x_type}_theming", checked: Setting.plugin_easy_theme_designer["enable_#{x_type}_theming"].to_s.to_boolean, :label => l("easy_theme_designer.setting_enable_#{x_type}_theming")) %>
+        <% end %>
+      <% end %>
+    </div>
+  <% end %>
+  <div class="form-actions">
+    <%= submit_tag l(:button_save) %>
+  </div>
+<% end %>
+<div id="easy_theme_designes_container">
+  <% if @easy_themes.any? %>
+    <table class="list">
+      <thead>
+      <tr>
+        <%= content_tag(:th, l(:field_title)) %>
+        <th>&nbsp;</th>
+      </tr>
+      </thead>
+      <tbody>
+      <% @easy_themes.each do |easy_theme| %>
+        <tr class="easy-theme-design <%= 'in-use' if easy_theme.in_use? %>">
+          <td class="name">
+            <%= easy_theme.title %>
+          </td>
+          <td class="buttons">
+            <%= link_to(l(:button_easy_theme_design_choose), generate_easy_theme_design_path(easy_theme), :class => 'icon icon-controls', :data => {:confirm => l(:text_are_you_sure)}) %>
+            <%= link_to(l(:label_preview), preview_easy_theme_design_path(easy_theme), :class => 'icon icon-eye') %>
+            <%= link_to('', edit_easy_theme_design_path(easy_theme), :class => 'icon icon-edit', :title => l(:button_edit)) %>
+            <%= link_to('', easy_theme_design_path(easy_theme), :class => 'icon icon-reload', :title => l(:easy_theme_designer_button_prepare), :method => :patch) %>
+            <% if Redmine::Plugin.installed?(:easy_data_templates) %>
+              <%= link_to '', easy_xml_easy_theme_designs_export_path(format: :xml, ids: [easy_theme.id]),
+                          title: l(:button_export),
+                          method: :post,
+                          class: 'icon icon-export' %>
+            <% end %>
+            <%= link_to('', easy_theme, :method => :delete, :class => 'icon icon-del', :title => l(:button_delete), :data => {:confirm => l(:text_are_you_sure)}) %>
+          </td>
+        </tr>
+      <% end -%>
+      </tbody>
+    </table>
+    <div class="clear"></div>
+  <% else %>
+    <%= content_tag(:p, l(:label_no_data), :class => 'nodata') -%>
+  <% end -%>
+</div>
+
+<%= javascript_include_tag 'easy_auto_submit_forms', plugin: 'easy_extensions', defer: true %>
+
+<style type="text/css">
+  tr.easy-theme-design.in-use * {
+    font-weight: bold;
+  }
+</style>
+<script type="text/javascript">
+  EASY.schedule.late(EasyAutoSubmitForm('easy_theme_designer_for', {method: 'PATCH'}));
+</script>

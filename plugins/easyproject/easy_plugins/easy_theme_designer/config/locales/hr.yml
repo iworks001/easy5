@@ -1,0 +1,49 @@
+---
+hr:
+  button_create_easy_theme_and_apply: Stvori i primjeni
+  button_easy_theme_design_choose: Odaberi
+  button_new_easy_theme_design: Dodaj novi dizajn
+  button_switch_color_toggler: Zamjeni boje
+  button_turn_off_easy_theme_designer: Isključi
+  button_update_easy_theme_and_apply: Spremi i primjeni
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: Pretpostavljeno je zeleno
+      button2_background: Pretpostavljeno je sivo
+      button3_background: Npr.  Gumb za novi zadatak u projektnom izborniku
+      links_color: Promjena boja svih zajedničkih poveznica
+      top_menu_links_color: Boja poveznica u traci na vrhu izbornika
+      top_menu_sub_links_color: Boja poveznica u subizbornicima na traci izbornika
+        pri vrhu
+    names:
+      button1_background: Pozadinska boja primarnih gumbova
+      button1_color: Boja primarnih gumbova
+      button2_background: Pozadinska boja sekundarnih gumbova
+      button2_color: Boja sekundarnih gumbova
+      button3_background: Pozadinska boja gumbova treće razine
+      button3_color: Boja gumbova treće razine
+      links_color: Boja poveznica
+      top_menu_links_color: Boja poveznica izbornika pri vrhu
+      top_menu_sub_links_color: Boja poveznica u izborniku 'više'
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_author_url: http://www.easyproject.cz/en
+  easy_theme_designer_plugin_description: Jednostavni dizajner brandinga
+  easy_theme_designer_plugin_name: Prilagođeni branding
+  easy_theme_designer:
+    setting_enable_issue_theming: Dozvoli individualni dizajn konteksta zadatka
+    setting_enable_project_theming: Dozvoli individualni dizajn konteksta projekta
+    setting_enable_user_theming: Dozvoli korisnicima da promjene vlastite teme
+  error_easy_theme_design_is_internal: Tema ne može biti obrisana
+  field_background_image: Pozadinska slika
+  field_easy_theme_design: Prilagođeni dizajn
+  field_external_css_file: Učitaj CSS iz datoteke
+  field_logo: Logo
+  field_primary_color: Primarna boja
+  field_secondary_color: Sekundarna boja
+  header_easy_theme_designer: Prilagođeni branding
+  hint_primary_color: Boja trake izbornika pri vrhu, aktivnih predmeta izbornika,
+    primarnih gumbova, itd.
+  hint_secondary_color: Boja poveznica podizbornika, sekundarnih gumbova, boja ikona,
+    itd.
+  title_edit_easy_theme_design: 'Ažuriraj dizajn: %{name}'
+  title_new_easy_theme_design: Novi dizajn

@@ -1,0 +1,48 @@
+---
+pl:
+  button_create_easy_theme_and_apply: Zapisz i zastosuj
+  button_easy_theme_design_choose: Wybierz
+  button_new_easy_theme_design: Dodaj nowy motyw
+  button_switch_color_toggler: Przełącz kolory
+  button_turn_off_easy_theme_designer: Wyłącz to
+  button_update_easy_theme_and_apply: Zapisz i zastosuj
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: Domyślne są zielone
+      button2_background: Domyślne są szare
+      button3_background: Np. przycisk nowego zadania w menu projektu
+      links_color: Zmień kolor wszystkich wspólnych linków
+      top_menu_links_color: Kolor linków na pasku górnego menu
+      top_menu_sub_links_color: Kolor linków w podmenu na pasku górnego menu
+    names:
+      button1_background: Kolor tła głównych przycisków
+      button1_color: Kolor głównych przycisków
+      button2_background: Kolor tła drugorzędnych przycisków
+      button2_color: Kolor drugorzędnych przycisków
+      button3_background: Kolor tła trzeciorzędnych przycisków
+      button3_color: Kolor trzeciorzędnych przycisków
+      links_color: Kolor linków
+      top_menu_links_color: Kolor linków górnego menu
+      top_menu_sub_links_color: Kolor linków w menu „więcej”
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_description: Prosty kreator świadomości marki
+  easy_theme_designer_plugin_name: Własny branding
+  easy_theme_designer:
+    setting_enable_issue_theming: Pozwól na indywidualne projektowanie kontekstu zadań
+    setting_enable_project_theming: Pozwól na indywidualne projektowanie kontekstu
+      projektów
+    setting_enable_user_theming: Pozwól użytkownikom na zmianę ich motywu
+  error_easy_theme_design_is_internal: Nie można usunąć motywu
+  field_background_image: Obraz tła
+  field_easy_theme_design: Własny motyw
+  field_external_css_file: Załaduj CSS z pliku
+  field_logo: Logo
+  field_primary_color: Główny kolor
+  field_secondary_color: Kolor tła
+  header_easy_theme_designer: Własny branding
+  hint_primary_color: Kolor górnego paska menu, aktywnych pozycji menu, głównych przycisków
+    itd.
+  hint_secondary_color: Kolor linków podmenu, drugorzędnych przycisków, ikon itd.
+  title_edit_easy_theme_design: 'Aktualizuj motyw: %{name}'
+  title_new_easy_theme_design: Nowy motyw
+  warning_failed_to_compile: 'Nie udało się skompilować pliku: %{name}'

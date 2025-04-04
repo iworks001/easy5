@@ -1,0 +1,58 @@
+---
+cs:
+  button_recalculate_computed_from_query: Přepočítat uživatelská pole
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_description: ''
+  easy_computed_custom_fields_plugin_name: Vypočtená uživatelská pole
+  easy_computed_from_query_available_formula:
+    bool_count: Ano/ne z počtu (ano, pokud počet hodnot je větší než nula)
+    bool_sum: Ano/ne ze součtu (ano, pokud součet hodnot je větší než nula)
+    count: Počet (počet hodnot)
+    first: První (první neprázdná hodnota)
+    join: Spojit (spojit seznamy do jednoho)
+    last: Poslední (poslední neprázdná hodnota)
+    max: Max (maximum z hodnot)
+    min: Min (minimum z hodnot)
+    sum: Součet (součet hodnot)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: Vypočtená pole z filtru
+    easy_rake_task_computed_today:
+      caption: Přepočítat uživatelská pole s hodnotou "dnes"
+  error_computed_custom_field_cfexistence: uživatelské pole s id %{id} neexistuje.
+  error_computed_custom_field_not_float: výraz není validní vzorec pro desetinná čísla
+  error_computed_custom_field_not_int: výraz není validní vzorec pro celá čísla
+  error_computed_custom_field_self_dependency: pole nemůže záviset samo na sobě
+  error_computed_custom_field_unknown_symbols: zadali jste neznámé symboly %{symbols}
+  field_easy_computed_token: Vzorec
+  field_easy_computed_token_format: Formát výstupu
+  fields_for_computed_token_field: pole
+  heading_easy_computed_from_query_define_filter: Definovat filtr
+  label_easy_computed_from_query: Vypočítané pole z filtru
+  label_easy_computed_from_query_column: Sloupec
+  label_easy_computed_from_query_entity_filter: Filtr entity
+  label_easy_computed_from_query_formula: Vzorec
+  label_easy_computed_token: Vypočtené pole
+  label_easy_computed_token_group_assigned_to: Přiřazeno
+  label_easy_computed_token_group_issue_parent: Nadřazený úkol
+  label_easy_computed_token_group_issue_priority: Priority úkolů
+  label_easy_computed_token_group_parent: Nadřazená pole
+  label_easy_computed_token_group_principal: Uživatel
+  label_easy_computed_token_group_time_entry_activity: Aktivita(čas)
+  label_easy_issue_dates:
+    date: Datum
+  label_easy_nested:
+    children: Součty z přímých podúkolů
+    descendants: Součty ze všech podúkolů
+  label_easy_project_dates:
+    date: Datum
+  label_easy_user_dates:
+    date: Datum
+  notice_delayed_update: Hodnoty budou dopočítány během 10 minut
+  related_custom_fields_for_computed_token: Odvozená uživatelská pole
+  related_fields_for_computed_token: Odvozená pole
+  self_custom_fields_for_computed_token: Vlastní uživatelská pole
+  self_fields_for_computed_token: Vlastní pole
+  text_easy_computed_token_edit_not_allowed: Nelze upravit
+  text_help_easy_computed_token_html: Symbol přidáte dvojklikem na něj v menu níže.<br
+    />

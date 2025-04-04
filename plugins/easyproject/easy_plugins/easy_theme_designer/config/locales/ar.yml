@@ -1,0 +1,48 @@
+---
+ar:
+  button_create_easy_theme_and_apply: حفظ وتطبيق
+  button_easy_theme_design_choose: اختر
+  button_new_easy_theme_design: إضافة تصميم جديد
+  button_switch_color_toggler: تغيير الألوان
+  button_turn_off_easy_theme_designer: أطفئه
+  button_update_easy_theme_and_apply: حفظ وتطبيق
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: الأساسيات خضراء
+      button2_background: الأساسيات رمادية
+      button3_background: مثال. زر المهمة الجديدة في قائمة المشروع
+      links_color: تغيير اللون لكل الروابط المشتركة
+      top_menu_links_color: لون الروابط في شريط القائمة العليا
+      top_menu_sub_links_color: لون الروابط في القوائم الفرعية في شريط القائمة العليا
+    names:
+      button1_background: لون الخلفية في الأزرار الأولية
+      button1_color: لون الأزرار الأساسية
+      button2_background: لون خلفية الأزرار الثانوية
+      button2_color: لون الأزرار الثانوية
+      button3_background: لون خلفية الأزرار من المستوى الثالث
+      button3_color: لون أزرار المستوى الثالث
+      links_color: لون الروابط
+      top_menu_links_color: لون روابط القائمة العليا
+      top_menu_sub_links_color: لون الروابط في قائمة "المزيد"
+  easy_theme_designer_plugin_author: برنامج Easy
+  easy_theme_designer_plugin_description: مصمم العلامة التجارية البسيط
+  easy_theme_designer_plugin_name: تخصيص العلامة التجارية
+  easy_theme_designer:
+    setting_enable_issue_theming: السماح للتصميم الفردي لسياق المهمة
+    setting_enable_project_theming: السماح بالتصيمي الفردي لسياق المشروع
+    setting_enable_user_theming: المساح للمستخدمين بتغيير موضوعهم
+  error_easy_theme_design_is_internal: لا يمكن حذف الموضوع
+  field_background_image: صورة الخلفية
+  field_easy_theme_design: تصميم مخصص
+  field_external_css_file: تحميل CSS من ملف
+  field_logo: الشعار
+  field_primary_color: اللون الأساسي
+  field_secondary_color: لون الخلفية
+  header_easy_theme_designer: تخصيص العلامة التجارية
+  hint_primary_color: لون شريط القائمة العليا، وبنود القائمة النشطة، والأزرار الأساسية،
+    وهكذا.
+  hint_secondary_color: لون روابط القائمة الفرعية، والأزرار الثانوية، والأيقونات،
+    وهكا.
+  title_edit_easy_theme_design: تحديث التصميم: %{name}
+  title_new_easy_theme_design: تصميم جديد
+  warning_failed_to_compile: لم ينجح تجميع الملف: %{name}

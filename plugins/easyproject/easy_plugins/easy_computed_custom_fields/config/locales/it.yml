@@ -1,0 +1,60 @@
+---
+it:
+  button_recalculate_computed_from_query: Ricalcola campi personalizzati
+  cf_token_today:
+    description: cf_token_today
+    title: cf_token_today
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_name: Campi personalizzati con formula
+  easy_computed_from_query_available_formula:
+    bool_count: Sì/No dal conteggio (Sì se il conteggio dei valori è maggiore di zero)
+    bool_sum: Sì/No dalla somma (Sì se la somma dei valori è maggiore di zero)
+    count: Conteggio (conteggio dei valori)
+    first: Primo (primo valore non nullo)
+    join: Unisci (unisce le liste in una)
+    last: Ultimo (ultimo valore non nullo)
+    max: Max (maggiore fra i valori)
+    min: Min (minore fra i valori)
+    sum: Somma (somma dei valori)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: Campi processati da filtro
+  error_computed_custom_field_cfexistence: campo personalizzato con id %{id} inesistente.
+  error_computed_custom_field_not_float: token non valido come modello di numero in
+    virgola mobile
+  error_computed_custom_field_not_int: token non valido come modello numerico
+  error_computed_custom_field_self_dependency: auto-dipendenza non abilitata
+  error_computed_custom_field_unknown_symbols: 'i seguenti simboli non sono definiti:
+    %{symbols}'
+  field_easy_computed_token: Formula
+  field_easy_computed_token_format: Formato del campo processato
+  fields_for_computed_token_field: campi
+  heading_easy_computed_from_query_define_filter: Definisci filtro
+  label_easy_computed_from_query: Campo processato da filtro
+  label_easy_computed_from_query_column: Colonna
+  label_easy_computed_from_query_entity_filter: Filtro entità
+  label_easy_computed_from_query_formula: Formula
+  label_easy_computed_token: Campo processato
+  label_easy_computed_token_group_assigned_to: Assegnato a
+  label_easy_computed_token_group_issue_parent: Task padre
+  label_easy_computed_token_group_issue_priority: Priorità task
+  label_easy_computed_token_group_parent: Padre
+  label_easy_computed_token_group_principal: Utente
+  label_easy_computed_token_group_time_entry_activity: Attività (tempo)
+  label_easy_issue_dates:
+    date: Data
+  label_easy_nested:
+    children: Somme Campi Figli
+    descendants: Somme campi discendenti
+  label_easy_project_dates:
+    date: Data
+  label_easy_user_dates:
+    date: Data
+  notice_delayed_update: I valori verranno processati entro 10 minuti
+  related_custom_fields_for_computed_token: Campi personalizzati correlati
+  related_fields_for_computed_token: Campi correlati
+  self_custom_fields_for_computed_token: I propri campi personalizzati
+  self_fields_for_computed_token: I propri campi
+  text_easy_computed_token_edit_not_allowed: Modifica non consentita
+  text_help_easy_computed_token_html: Fai doppio clic sul simbolo nel menù in basso
+    per aggiungerlo.

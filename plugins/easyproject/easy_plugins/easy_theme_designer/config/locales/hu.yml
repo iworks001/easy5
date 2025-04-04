@@ -1,0 +1,45 @@
+---
+hu:
+  button_create_easy_theme_and_apply: Létrehozás és alkalmazás
+  button_easy_theme_design_choose: Kiválasztás
+  button_new_easy_theme_design: Új arculat hozzáadása
+  button_switch_color_toggler: Színek cseréje
+  button_turn_off_easy_theme_designer: Kikapcsolás
+  button_update_easy_theme_and_apply: Mentés és alkalmazás
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: Alapértelmezés szerint zöld
+      button2_background: Alapértelmezés szerint szürke
+      button3_background: Pl. Új feladat gomb a projekt menüben
+      links_color: Minden közös link színének változtatása
+      top_menu_links_color: Linkek színe a felső menüsávban
+      top_menu_sub_links_color: Linkek színe a felső menüsáv almenüiben
+    names:
+      button1_background: Elsődleges gombok háttere
+      button1_color: Elsődleges gombok színe
+      button2_background: Másodlagos gombok háttere
+      button2_color: Másodlagos gombok színe
+      button3_background: 3.szintű gombok háttere
+      button3_color: 3.szintű gombok színe
+      links_color: Linkek színe
+      top_menu_links_color: Felső menüsávon a linkek színe
+      top_menu_sub_links_color: Linkek színe 'több' menüben
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_description: Egyszerű arculattervező
+  easy_theme_designer_plugin_name: Egyedi arculat
+  easy_theme_designer:
+    setting_enable_issue_theming: Egyedi megjelenés engedélyezése a feladatoknál
+    setting_enable_project_theming: Egyedi megjelenés engedélyezése a projektnél
+    setting_enable_user_theming: A felhasználók megváltoztathatják a megjelenés témáját
+  error_easy_theme_design_is_internal: Téma nem törölhető
+  field_background_image: Háttérkép
+  field_easy_theme_design: Egyedi arculat
+  field_external_css_file: CSS betöltése fájlból
+  field_logo: Logo
+  field_primary_color: Elsődleges szín
+  field_secondary_color: Másodlagos szín
+  header_easy_theme_designer: Easy témaszerkesztő
+  hint_primary_color: Felső menüsáv színe, aktív menüelemek, elsődleges gombok, stb.
+  hint_secondary_color: Almenü linkek, másodlagos gombok, ikonok színe, stb.
+  title_edit_easy_theme_design: 'Arculat frissítése: %{name}'
+  title_new_easy_theme_design: Új arculat

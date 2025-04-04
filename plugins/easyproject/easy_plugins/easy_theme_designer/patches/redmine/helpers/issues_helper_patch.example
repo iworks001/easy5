@@ -1,0 +1,30 @@
+module EasyThemeDesigner
+  module IssuesHelperPatch
+
+    def self.included(base)
+      base.extend(ClassMethods)
+      base.send(:include, InstanceMethods)
+
+      base.class_eval do
+
+        alias_method_chain :issue_heading, :easy_theme_designer
+
+      end
+    end
+
+    module InstanceMethods
+
+      def issue_heading_with_easy_theme_designer(issue)
+        issue_heading_without_easy_theme_designer(issue)
+      end
+
+    end
+
+    module ClassMethods
+
+    end
+
+  end
+
+end
+EasyExtensions::PatchManager.register_helper_patch 'IssuesHelper', 'EasyThemeDesigner::IssuesHelperPatch'

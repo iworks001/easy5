@@ -1,0 +1,48 @@
+---
+zh:
+  button_recalculate_computed_from_query: 重新计算自定义 区域
+  easy_computed_custom_fields_plugin_author: 易软件
+  easy_computed_custom_fields_plugin_author_url: http://www.easyproject.cz/
+  easy_computed_custom_fields_plugin_name: 含公式的自定义区域
+  easy_computed_from_query_available_formula:
+    bool_count: Yes/No from count (数值数目大于0时为Yes)
+    bool_sum: Yes/No from sum (总计值大于0时为Yes )
+    count: Count (数值的数目)
+    first: First (第一个非空的值)
+    join: 合并(合并为一个清单)
+    last: Last (下一个非空的值)
+    max: Max (最大的一个值)
+    min: Min (最小的一个值)
+    sum: 总计 (所有值的和)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: 从筛选器计算区域
+  error_computed_custom_field_cfexistence: 自定义字段id为%{id}不存在。
+  error_computed_custom_field_not_float: 令牌是不是有效的浮点数模式
+  error_computed_custom_field_not_int: 令牌是不是有效的数值模式
+  error_computed_custom_field_self_dependency: 未启用自我依赖
+  error_computed_custom_field_unknown_symbols: 没有定义以下符号：%{symbols}
+  field_easy_computed_token: 公式
+  field_easy_computed_token_format: 计算字段格式
+  fields_for_computed_token_field: 领域
+  heading_easy_computed_from_query_define_filter: 定义筛选器
+  label_easy_computed_from_query: 从筛选器计算区域
+  label_easy_computed_from_query_column: 栏
+  label_easy_computed_from_query_formula: 公式
+  label_easy_computed_token: 计数字段
+  label_easy_computed_token_group_assigned_to: 分配给
+  label_easy_computed_token_group_issue_parent: 上一级任务
+  label_easy_computed_token_group_issue_priority: 发行优先
+  label_easy_computed_token_group_parent: 上一级
+  label_easy_computed_token_group_principal: 用户
+  label_easy_computed_token_group_time_entry_activity: 活动（时间）
+  label_easy_nested:
+    children: 下一级区域总计
+    descendants: 下一级区域总计
+  notice_delayed_update: 结果将在10分钟内计算出
+  related_custom_fields_for_computed_token: 相关的自定义字段
+  related_fields_for_computed_token: 相关领域
+  self_custom_fields_for_computed_token: 自己的自定义字段
+  self_fields_for_computed_token: 自己的田地
+  text_easy_computed_token_edit_not_allowed: 不允许编辑
+  text_help_easy_computed_token_html: 双击下列条目进行添加到上方<br />

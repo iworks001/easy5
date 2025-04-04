@@ -1,0 +1,8 @@
+<% if EasyThemeDesign.any? %>
+  <fieldset>
+    <p>
+      <%= label_tag('easy_theme_design_id', l(:label_theme)) %>
+      <%= select_tag('easy_theme_design_id', options_for_select([[l(:label_default), '']] + EasyThemeDesign.sorted.map { |option| [option.title, option.id] }, EasyThemeDesign.in_use_globally&.id)) %>
+    </p>
+  </fieldset>
+<% end %>

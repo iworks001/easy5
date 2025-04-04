@@ -1,0 +1,47 @@
+---
+ko:
+  button_recalculate_computed_from_query: 커스텀 필드 재계산
+  easy_computed_custom_fields_plugin_author: Easy Software Ltd
+  easy_computed_custom_fields_plugin_name: 수식이 있는 사용자 정의 필드
+  easy_computed_from_query_available_formula:
+    bool_count: 갯수의 예/아니오 (예는 값의 갯수가 0보다 큰 것임)
+    bool_sum: 합의 예/아니오(예는 값의 합이 0부다 큰것임)
+    count: 계수(값의 계수)
+    first: 첫째(비어 있지 않은 첫번째)
+    join: 가입(어느것으로 가입된 목록)
+    last: 마지막(비어있지 않은 마지막)
+    max: 최고(값에서 최고치)
+    min: 최소(값에서 최소치)
+    sum: 합계(값의 합)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: 필터에서 계산된 필드
+  error_computed_custom_field_cfexistence: id  %{id} 에서 사용자 정의 필드가 존재하지 않습니다.
+  error_computed_custom_field_not_float: 토큰이 유효한 실수 유형이 아닙니다.
+  error_computed_custom_field_not_int: 토큰이 유효한 숫자 패턴이 아닙니다.
+  error_computed_custom_field_self_dependency: 자가 의존성은 사용할 수 없습니다
+  error_computed_custom_field_unknown_symbols: '다음 기호는 정의되지 않습니다 : %{symbols}'
+  field_easy_computed_token: 공식
+  field_easy_computed_token_format: 계산된 필드 형식
+  fields_for_computed_token_field: 필드
+  heading_easy_computed_from_query_define_filter: 필터 정의
+  label_easy_computed_from_query: 필터에서 계산된 필드
+  label_easy_computed_from_query_column: 열
+  label_easy_computed_from_query_formula: 공식
+  label_easy_computed_token: 계산된 필드
+  label_easy_computed_token_group_assigned_to: 에게 지정
+  label_easy_computed_token_group_issue_parent: 상위 일감
+  label_easy_computed_token_group_issue_priority: 일감 우선순위
+  label_easy_computed_token_group_parent: 상위
+  label_easy_computed_token_group_principal: 유저
+  label_easy_computed_token_group_time_entry_activity: 활동(시간)
+  label_easy_nested:
+    children: 하위 필드 합계
+    descendants: 내림 필드 합계
+  notice_delayed_update: 값은 10분 이내에 계산됩니다.
+  related_custom_fields_for_computed_token: 관련된 사용자 정의 필드
+  related_fields_for_computed_token: 관련된 필드
+  self_custom_fields_for_computed_token: 자신의 사용자 정의 필드
+  self_fields_for_computed_token: 자신의 필드
+  text_easy_computed_token_edit_not_allowed: 편집이 허용되지 않습니다.
+  text_help_easy_computed_token_html: 메뉴에서 기호를 더블클릭하면 그 아래에 추가합니다.<br />

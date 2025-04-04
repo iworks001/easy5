@@ -1,0 +1,50 @@
+---
+hr:
+  button_recalculate_computed_from_query: Ponovno izračunaj prilagođena polja
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_author_url: http://www.easyproject.cz/
+  easy_computed_custom_fields_plugin_name: Prilagođena polja sa formulom
+  easy_computed_from_query_available_formula:
+    bool_count: Da/Ne iz prebrojavanja (Da ako je broj vrijednosti veći od nula)
+    bool_sum: Da/Ne iz sume (Da ako je suma vrijednosti veća od nula)
+    count: Broj (broj vrijednosti)
+    first: Prva (prva vrijednost koja nije prazna)
+    join: Spoji (spoji liste u jednu)
+    last: Posljednji (posljednja neprazna vrijednost)
+    max: Maksimum (maksimum iz vrijednosti)
+    min: Minimum (minimum iz vrijednosti)
+    sum: Suma (suma vrijednosti)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: Izračunata polja iz filtera
+  error_computed_custom_field_cfexistence: prilagođena polja sa id-om %{id} ne postoje.
+  error_computed_custom_field_not_float: token nije valjani uzorak cijelog broja
+  error_computed_custom_field_not_int: token nije valjani numerički uzorak
+  error_computed_custom_field_self_dependency: samo-ovisnost nije dozvoljena
+  error_computed_custom_field_unknown_symbols: 'sljedeći simboli nisu definirani:
+    %{symbols}'
+  field_easy_computed_token: Formula
+  field_easy_computed_token_format: Format izračunatih polja
+  fields_for_computed_token_field: polja
+  heading_easy_computed_from_query_define_filter: Definiraj filter
+  label_easy_computed_from_query: Izračunato polje iz filtera
+  label_easy_computed_from_query_column: Kolumna
+  label_easy_computed_from_query_formula: Formula
+  label_easy_computed_token: Izračunato polje
+  label_easy_computed_token_group_assigned_to: Pridodijeljen
+  label_easy_computed_token_group_issue_parent: Nadređeni zadatak
+  label_easy_computed_token_group_issue_priority: Prioritet zadatka
+  label_easy_computed_token_group_parent: Nadređeni
+  label_easy_computed_token_group_principal: Korisnik
+  label_easy_computed_token_group_time_entry_activity: Aktivnost (vrijeme)
+  label_easy_nested:
+    children: Sume Children Fields
+    descendants: Sume polja potomaka
+  notice_delayed_update: Vrijednosti će biti izračunate u roku od 10 minuta
+  related_custom_fields_for_computed_token: Povezana prilagođena polja
+  related_fields_for_computed_token: Povezana polja
+  self_custom_fields_for_computed_token: Vlastita prilagođena polja
+  self_fields_for_computed_token: Vlastita polja
+  text_easy_computed_token_edit_not_allowed: Izmjena nije dopuštena
+  text_help_easy_computed_token_html: Dvostruki klik na simbol u izborniku ispod da
+    biste ga dodali. <br />

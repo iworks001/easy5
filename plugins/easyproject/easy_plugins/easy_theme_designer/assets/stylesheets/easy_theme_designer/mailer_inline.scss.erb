@@ -1,0 +1,16 @@
+$color-main: <%= primary_color %>;
+$color-background: <%= secondary_color %>;
+<% advanced_fields.select{|i| i.value.present?}.each do |field| %>$<%= field.name.to_s.dasherize %>: <%= field.value %>;<% end %>
+<% self.class.attached_image_names.each do |image_name| %>
+<% if get_image(image_name) %>
+$<%= image_name.dasherize %>-url: url("<%= prefixed_path(image_asset_url(image_name)) %>");
+<% end %>
+<% end %>
+<% if logo = get_image('logo') %>
+<%= (geometry = Paperclip::Geometry.from_file(logo.diskfile)) && "$logo-width: #{(n = geometry.width) && (n > 130 || n.zero?) ? '130' : n}px;" %>
+<% end %>
+$custom-brand-active: true;
+
+$rails-env: <%= Rails.env %>;
+
+@import 'mailer/mailer_inline';

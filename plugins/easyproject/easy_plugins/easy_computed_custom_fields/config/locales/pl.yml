@@ -1,0 +1,62 @@
+---
+pl:
+  button_recalculate_computed_from_query: Przelicz własne pola
+  cf_token_today:
+    description: pw_token_dzisiaj
+    title: pw_token_dzisiaj
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_name: Własne pola z formułami
+  easy_computed_from_query_available_formula:
+    bool_count: Tak/Nie z liczby (Tak jeśli liczba wartości jest większa niż zero)
+    bool_sum: Tak/Nie z sumy (Tak jeśli suma wartości jest większa niż zero)
+    count: Liczba (liczba wartości)
+    first: Pierwsza (pierwsza niepusta wartość)
+    join: Połącz (połącz listy w jedną)
+    last: Ostatnia (ostatnia niepusta wartość)
+    max: Maks. (maksimum z wartości)
+    min: Min. (minimum z wartości)
+    sum: Suma (suma wartości)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: Obliczone pola z filtra
+    easy_rake_task_computed_today:
+      caption: Ponownie wyliczone własne pole z tokenem 'dzisiaj'
+  error_computed_custom_field_cfexistence: własne pole o identyfikatorze %{id} nie
+    istnieje.
+  error_computed_custom_field_not_float: token nie zawiera poprawnej liczby zmiennoprzecinkowej
+  error_computed_custom_field_not_int: token nie zawiera poprawnej liczby całkowitej
+  error_computed_custom_field_self_dependency: nie włączono samozależności
+  error_computed_custom_field_unknown_symbols: 'nie zdefiniowano następujących symboli:
+    %{symbols}'
+  field_easy_computed_token: Formuła
+  field_easy_computed_token_format: Format pola obliczanego
+  fields_for_computed_token_field: pola
+  heading_easy_computed_from_query_define_filter: Zdefiniuj filtr
+  label_easy_computed_from_query: Pole obliczane z filtra
+  label_easy_computed_from_query_column: Kolumna
+  label_easy_computed_from_query_entity_filter: Filtr obiektów
+  label_easy_computed_from_query_formula: Formuła
+  label_easy_computed_token: Pole obliczane
+  label_easy_computed_token_group_assigned_to: Przypisano do
+  label_easy_computed_token_group_issue_parent: Zadanie nadrzędne
+  label_easy_computed_token_group_issue_priority: Priorytet zadania
+  label_easy_computed_token_group_parent: Projekt nadrzędny
+  label_easy_computed_token_group_principal: Użytkownik
+  label_easy_computed_token_group_time_entry_activity: Aktywność(czas)
+  label_easy_issue_dates:
+    date: Data
+  label_easy_nested:
+    children: Sumy podpól
+    descendants: Sumy podpól
+  label_easy_project_dates:
+    date: Data
+  label_easy_user_dates:
+    date: Data
+  notice_delayed_update: Wartości zostaną obliczone w ciągu 10 minut
+  related_custom_fields_for_computed_token: Powiązane pola własne
+  related_fields_for_computed_token: Powiązane pola
+  self_custom_fields_for_computed_token: Własne pola własne
+  self_fields_for_computed_token: Własne pola
+  text_easy_computed_token_edit_not_allowed: Edycja niedozwolona
+  text_help_easy_computed_token_html: Kliknij dwukrotnie w symbol w menu poniżej,
+    aby go dodać.

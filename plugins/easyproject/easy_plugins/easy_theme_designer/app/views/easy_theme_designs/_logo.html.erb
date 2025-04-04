@@ -1,0 +1,9 @@
+<%= fields_for(:easy_theme_logo, logo) do |f| %>
+  <tr class="easy-theme-logo" data-url="<%= logo_easy_theme_designer_path(logo) %>">
+    <td>
+      <%= thumbnail_tag(f.object.attachments.first, {}, {'max-width' => '130px'}) %>
+    </td>
+    <td><%= f.label(:is_default, :for => dom_id(logo) + '_is_default') %><%= f.check_box(:is_default, :id => dom_id(logo) + '_is_default') %></td>
+    <td><%= link_to(l(:button_delete), logo_easy_theme_designer_path(f.object), :method => 'delete', :data => {:confirm => l(:text_are_you_sure)}, :class => 'icon icon-del', :title => l(:button_delete)) %> </td>
+  </tr>
+<% end -%>

@@ -1,0 +1,25 @@
+---
+da:
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_author_url: http://www.easyproject.cz/
+  error_computed_custom_field_cfexistence: brugerdefineret felt med id %{id} ikke
+    eksisterer.
+  error_computed_custom_field_not_float: token er ikke gyldig flydende tal mønster
+  error_computed_custom_field_not_int: token er ikke gyldig numerisk mønster
+  error_computed_custom_field_self_dependency: self afhængighed er ikke aktiveret
+  error_computed_custom_field_unknown_symbols: Følgende symboler er ikke defineret:%{symbols}
+  field_easy_computed_token: Polet
+  field_easy_computed_token_format: Beregnet felt format
+  fields_for_computed_token_field: felter
+  label_easy_computed_token: Tælles felt
+  label_easy_computed_token_group_assigned_to: Tildelt til
+  label_easy_computed_token_group_issue_priority: Issue prioritet
+  label_easy_computed_token_group_principal: Bruger
+  label_easy_computed_token_group_time_entry_activity: Aktivitet (tid)
+  related_custom_fields_for_computed_token: Relaterede brugerdefinerede felter
+  related_fields_for_computed_token: Beslægtede områder
+  self_custom_fields_for_computed_token: Egne brugerdefinerede felter
+  self_fields_for_computed_token: Egne marker
+  text_easy_computed_token_edit_not_allowed: Edit er ikke tilladt
+  text_help_easy_computed_token_html: Dobbeltklik på symbolet vælger at tilføje det.<br
+    />

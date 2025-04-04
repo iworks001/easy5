@@ -1,0 +1,46 @@
+---
+th:
+  button_create_easy_theme_and_apply: บันทึกและนำไปใช้
+  button_easy_theme_design_choose: เลือก
+  button_new_easy_theme_design: เพิ่มดีไซน์ใหม่
+  button_switch_color_toggler: สลับสี
+  button_turn_off_easy_theme_designer: ปิด
+  button_update_easy_theme_and_apply: บันทึกและนำไปใช้
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: ค่าเริ่มต้นเป็นสีเขียว
+      button2_background: ค่าเริ่มต้นเป็นสีเทา
+      button3_background: เช่น. ปุ่มภารกิจใหม่ในเมนูโครงการ
+      links_color: เปลี่ยนสีของลิงค์ทั่วไปทั้งหมด
+      top_menu_links_color: สีของลิงค์ในแถบเมนูด้านบน
+      top_menu_sub_links_color: สีของลิงค์ในเมนูย่อยในแถบเมนูด้านบน
+    names:
+      button1_background: สีพื้นหลังของปุ่มหลัก
+      button1_color: สีของปุ่มหลัก
+      button2_background: สีพื้นหลังของปุ่มที่สอง
+      button2_color: สีของปุ่มที่สอง
+      button3_background: สีพื้นหลังของปุ่มที่ 3
+      button3_color: สีของปุ่มที่ 3
+      links_color: สีของลิงค์
+      top_menu_links_color: สีของลิงค์เมนูด้านบน
+      top_menu_sub_links_color: สีของลิงค์ในเมนู 'เพิ่มเติม'
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_description: ออกแบบแบรนด์อย่างเรียบง่าย
+  easy_theme_designer_plugin_name: แบรนด์ที่กำหนดเอง
+  easy_theme_designer:
+    setting_enable_issue_theming: อนุญาตการออกแบบบริบทภารกิจเฉพาะบุคคล
+    setting_enable_project_theming: อนุญาตการออกแบบบริบทโครงการเฉพาะบุคคล
+    setting_enable_user_theming: อนุญาตให้ผู้ใช้เปลี่ยนธีมของพวกเขา
+  error_easy_theme_design_is_internal: ไม่สามารถลบธีม
+  field_background_image: ภาพพื้นหลัง
+  field_easy_theme_design: ดีไซน์ที่กำหนดเอง
+  field_external_css_file: โหลด CSS จากไฟล์
+  field_logo: โลโก้
+  field_primary_color: สีหลัก
+  field_secondary_color: สีพื้นหลัง
+  header_easy_theme_designer: แบรนด์ที่กำหนดเอง
+  hint_primary_color: สีของแถบเมนูด้านบน, รายการเมนูที่กำลังใช้งาน, ปุ่มหลัก ฯลฯ
+  hint_secondary_color: สีของลิงค์เมนูย่อย, ปุ่มรอง, สีของไอคอน เป็นต้น
+  title_edit_easy_theme_design: 'อัพเดตดีไซน์: %{name}'
+  title_new_easy_theme_design: ดีไซน์ใหม่
+  warning_failed_to_compile: 'ไม่สามารถรวบรวมไฟล์: %{name}'

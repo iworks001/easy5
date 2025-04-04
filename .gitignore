@@ -1,0 +1,8 @@
+/config/database.yml
+/tmp/*
+/log/*
+/public/plugin_assets/*
+.bundle
+.DS_Store
+*.log
+*.pid

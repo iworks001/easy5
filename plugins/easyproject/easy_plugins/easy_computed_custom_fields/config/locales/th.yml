@@ -1,0 +1,59 @@
+---
+th:
+  button_recalculate_computed_from_query: คำนวณฟิลด์ที่กำหนดเองอีกครั้ง
+  cf_token_today:
+    description: cf_token_today
+    title: cf_token_today
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_name: ฟิลด์ที่กำหนดเองด้วยสูตรการคำนวณ
+  easy_computed_from_query_available_formula:
+    bool_count: ใช่ / ไม่ใช่ จากการนับ (ใช่ ถ้าจำนวนค่ามากกว่าศูนย์)
+    bool_sum: ใช่ / ไม่ใช่ จากผลรวม (ใช่ ถ้าผลรวมของค่ามากกว่าศูนย์)
+    count: การนับ (การนับของค่า)
+    first: ค่าแรก (ค่าแรกไม่ใช่ค่าว่าง)
+    join: รวม (รวมรายการเป็นหนึ่ง)
+    last: สุดท้าย (ค่าสุดท้ายไม่ใช่ค่าว่าง)
+    max: สูงสุด (สูงสุดจากค่า)
+    min: ต่ำสุด (ต่ำสุดจากค่า)
+    sum: ผลรวม (ผลรวมจากค่า)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: คำนวณฟิลด์จากตัวกรอง
+    easy_rake_task_computed_today:
+      caption: คำนวณ CF ใหม่ด้วย token today
+  error_computed_custom_field_cfexistence: ไม่มีฟิลด์ที่กำหนดเองที่มี id%{id}
+  error_computed_custom_field_not_float: โทเค็นไม่ใช่รูปแบบตัวเลขลอยตัวที่ถูกต้อง
+  error_computed_custom_field_not_int: โทเค็นไม่ใช่รูปแบบตัวเลขที่ถูกต้อง
+  error_computed_custom_field_self_dependency: ไม่ได้เปิดใช้งานการพึ่งพาตนเอง
+  error_computed_custom_field_unknown_symbols: 'ไม่ได้กำหนดสัญลักษณ์ต่อไปนี้: %{symbols}'
+  field_easy_computed_token: สูตรการคำนวณ
+  field_easy_computed_token_format: รูปแบบฟิลด์คำนวณ
+  fields_for_computed_token_field: ฟิลด์
+  heading_easy_computed_from_query_define_filter: กำหนดตัวกรอง
+  label_easy_computed_from_query: ฟิลด์ที่คำนวณจากตัวกรอง
+  label_easy_computed_from_query_column: คอลัมน์
+  label_easy_computed_from_query_entity_filter: ตัวกรองเอนทิตี
+  label_easy_computed_from_query_formula: สูตรการคำนวณ
+  label_easy_computed_token: ฟิลด์ที่คำนวณ
+  label_easy_computed_token_group_assigned_to: ได้รับมอบหมายให้
+  label_easy_computed_token_group_issue_parent: ภารกิจหลัก
+  label_easy_computed_token_group_issue_priority: ลำดับความสำคัญของภารกิจ
+  label_easy_computed_token_group_parent: โครงการหลัก
+  label_easy_computed_token_group_principal: ผู้ใช้
+  label_easy_computed_token_group_time_entry_activity: กิจกรรม (เวลา)
+  label_easy_issue_dates:
+    date: วันที่
+  label_easy_nested:
+    children: ผลรวมของฟิลด์ย่อย
+    descendants: ผลรวมของฟิลด์ที่สัมพันธ์กัน
+  label_easy_project_dates:
+    date: วันที่
+  label_easy_user_dates:
+    date: วันที่
+  notice_delayed_update: ค่าจะถูกคำนวณภายใน 10 นาที
+  related_custom_fields_for_computed_token: ฟิลด์ที่กำหนดเองที่เกี่ยวข้อง
+  related_fields_for_computed_token: ฟิลด์ที่เกี่ยวข้อง
+  self_custom_fields_for_computed_token: ฟิลด์ที่กำหนดเองของตัวเอง
+  self_fields_for_computed_token: ฟิลด์ของตัวเอง
+  text_easy_computed_token_edit_not_allowed: ไม่อนุญาตให้แก้ไข
+  text_help_easy_computed_token_html: ดับเบิ้ลคลิกที่สัญลักษณ์ในเมนูด้านล่างเพื่อเพิ่ม

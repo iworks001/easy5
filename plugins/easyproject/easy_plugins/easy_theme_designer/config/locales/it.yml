@@ -1,0 +1,50 @@
+---
+it:
+  button_create_easy_theme_and_apply: Salva e applica
+  button_easy_theme_design_choose: Scegli
+  button_new_easy_theme_design: Aggiungi nuova struttura
+  button_switch_color_toggler: Inverti colori
+  button_turn_off_easy_theme_designer: Disattiva
+  button_update_easy_theme_and_apply: Salva e applica
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: I predefiniti sono in verde
+      button2_background: I predefiniti sono in grigio
+      button3_background: 'Es: Pulsante Nuovo task nel menù del progetto'
+      links_color: Cambia il colore di tutti i link comuni
+      top_menu_links_color: Colore dei link nella barra del menù principale
+      top_menu_sub_links_color: Colore dei link nei sottomenù all'interno della barra
+        del menu principale
+    names:
+      button1_background: Colore di fondo dei pulsanti primari
+      button1_color: Colore dei pulsanti primari
+      button2_background: Colore di fondo dei pulsanti secondari
+      button2_color: Colore dei pulsanti secondari
+      button3_background: Colore di fondo dei pulsanti di 3° livello
+      button3_color: Colore dei pulsanti di 3° livello
+      links_color: Colore dei link
+      top_menu_links_color: Colore dei link nel menù principale
+      top_menu_sub_links_color: Colore dei link nel menù "altro"
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_description: Semplice designer di branding
+  easy_theme_designer_plugin_name: Brand personalizzato
+  easy_theme_designer:
+    setting_enable_issue_theming: Consenti la struttura individuale del contesto di task
+    setting_enable_project_theming: Consenti la struttura individuale del contesto
+      di progetto
+    setting_enable_user_theming: Consenti agli utenti di cambiare il proprio tema
+  error_easy_theme_design_is_internal: Impossibile eliminare il tema
+  field_background_image: Immagine di sfondo
+  field_easy_theme_design: Struttura personalizzata
+  field_external_css_file: Carica CSS da file
+  field_logo: Logo
+  field_primary_color: Colore primario
+  field_secondary_color: Colore sfondo
+  header_easy_theme_designer: Stile personalizzato
+  hint_primary_color: Colore della barra del menù principale, voci attive del menù,
+    pulsanti primari, ecc.
+  hint_secondary_color: Colore dei link del sottomenù, pulsanti secondari, colore
+    di icone, ecc.
+  title_edit_easy_theme_design: 'Aggiorna struttura: %{name}'
+  title_new_easy_theme_design: Nuova struttura
+  warning_failed_to_compile: Impossibile compilare il file: %{name}

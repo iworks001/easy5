@@ -1,0 +1,24 @@
+---
+pt:
+  easy_computed_custom_fields_plugin_author: Fácil Software
+  easy_computed_custom_fields_plugin_author_url: http://www.easyproject.cz/
+  error_computed_custom_field_cfexistence: campo personalizado com id %{id} não existe.
+  error_computed_custom_field_not_float: token não é padrão de número flutuante válido
+  error_computed_custom_field_not_int: token não é o padrão numérico válido
+  error_computed_custom_field_self_dependency: auto-dependência não está habilitado
+  error_computed_custom_field_unknown_symbols: seguintes símbolos não estão definidos:%{symbols}
+  field_easy_computed_token: Símbolo
+  field_easy_computed_token_format: Formato do campo Computed
+  fields_for_computed_token_field: campos
+  label_easy_computed_token: Campo contados
+  label_easy_computed_token_group_assigned_to: Designado para
+  label_easy_computed_token_group_issue_priority: Prioridade questão
+  label_easy_computed_token_group_principal: Usuário
+  label_easy_computed_token_group_time_entry_activity: Atividade (tempo)
+  related_custom_fields_for_computed_token: Campos personalizados relacionados
+  related_fields_for_computed_token: Áreas afins
+  self_custom_fields_for_computed_token: Campos personalizados próprios
+  self_fields_for_computed_token: Campos próprios
+  text_easy_computed_token_edit_not_allowed: Editar não é permitido
+  text_help_easy_computed_token_html: Clique duas vezes no símbolo de escolha para
+    adicioná-lo.<br />

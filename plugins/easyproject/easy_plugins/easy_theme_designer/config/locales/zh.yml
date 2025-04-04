@@ -1,0 +1,45 @@
+---
+zh:
+  button_create_easy_theme_and_apply: 新建和应用
+  button_easy_theme_design_choose: 选择
+  button_new_easy_theme_design: 新建设计
+  button_switch_color_toggler: 转换颜色
+  button_turn_off_easy_theme_designer: 关闭
+  button_update_easy_theme_and_apply: 保存和应用
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: 默认为绿色
+      button2_background: 默认为灰色
+      button3_background: 如, 项目菜单中的新任务按钮
+      links_color: 变更所有普通链接的颜色
+      top_menu_links_color: 顶部菜单中的链接的颜色
+      top_menu_sub_links_color: 顶层菜单的子菜单中的链接的颜色
+    names:
+      button1_background: 主按钮的背景颜色
+      button1_color: 主按钮的颜色
+      button2_background: 二级按钮的背景颜色
+      button2_color: 二级按钮的颜色
+      button3_background: 三级按钮的背景色
+      button3_color: 三级按钮的颜色
+      links_color: 链接的颜色
+      top_menu_links_color: 顶级菜单的链接颜色
+      top_menu_sub_links_color: 菜单中'more' (更多) 的颜色
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_description: 简单的品牌设计
+  easy_theme_designer_plugin_name: 自定义品牌
+  easy_theme_designer:
+    setting_enable_issue_theming: 允许对任务风格进行单独设计
+    setting_enable_project_theming: 允许对项目风格进行单独设计
+    setting_enable_user_theming: 允许用户更改他们的主题
+  error_easy_theme_design_is_internal: 此主题不能被删除
+  field_background_image: 背景图片
+  field_easy_theme_design: 自定义设计
+  field_external_css_file: 从文件中下载CSS
+  field_logo: Logo
+  field_primary_color: 主颜色
+  field_secondary_color: 背景颜色
+  header_easy_theme_designer: 自定义品牌
+  hint_primary_color: 顶级菜单条激活的菜单项, 主按钮等颜色, .
+  hint_secondary_color: 子菜单, 二级按钮,图标等颜色
+  title_edit_easy_theme_design: '更新设计: %{name}'
+  title_new_easy_theme_design: 新的设计

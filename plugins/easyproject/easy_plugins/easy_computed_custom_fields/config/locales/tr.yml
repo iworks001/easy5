@@ -1,0 +1,61 @@
+---
+tr:
+  button_recalculate_computed_from_query: Özel alanları yeniden hesapla
+  cf_token_today:
+    description: cf_token_today
+    title: cf_token_today
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_name: Formül içeren özel alanlar
+  easy_computed_from_query_available_formula:
+    bool_count: Sayıdan Evet / Hayır (Değerlerin sayısı sıfırdan büyükse Evet)
+    bool_sum: Toplamdan Evet / Hayır (Değerlerin toplamı sıfırdan büyükse Evet)
+    count: Sayı (değer sayısı)
+    first: İlk (ilk boş olmayan değer)
+    join: Birleştir (listeleri bir araya getirir)
+    last: Son (son boş olmayan değer)
+    max: Max (değerlerden maksimum)
+    min: Min (değerlerden minimum)
+    sum: Toplam (değerlerin toplamı)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: Filtreden hesaplanan alanlar
+    easy_rake_task_computed_today:
+      caption: CF'yi bugün jetonla(token) yeniden hesapla
+  error_computed_custom_field_cfexistence: "%{id} kimliğine sahip özel alan yok."
+  error_computed_custom_field_not_float: belirteç (token) geçerli bir değişken sayı
+    kalıbı değil
+  error_computed_custom_field_not_int: belirteç (token) geçerli sayısal model değil
+  error_computed_custom_field_self_dependency: kendine bağımlılık etkin değil
+  error_computed_custom_field_unknown_symbols: aşağıdaki semboller tanımlanmadı:%{symbols}
+  field_easy_computed_token: Formül
+  field_easy_computed_token_format: Hesaplanan alan formatı
+  fields_for_computed_token_field: alanlar
+  heading_easy_computed_from_query_define_filter: Filtreyi tanımla
+  label_easy_computed_from_query: Filtreden hesaplanan alan
+  label_easy_computed_from_query_column: Sütun
+  label_easy_computed_from_query_entity_filter: Varlık filtresi
+  label_easy_computed_from_query_formula: Formül
+  label_easy_computed_token: Hesaplanan alan
+  label_easy_computed_token_group_assigned_to: Atanan
+  label_easy_computed_token_group_issue_parent: Ana iş
+  label_easy_computed_token_group_issue_priority: İş önceliği
+  label_easy_computed_token_group_parent: Ana proje
+  label_easy_computed_token_group_principal: Kullanıcı
+  label_easy_computed_token_group_time_entry_activity: Aktivite(zaman)
+  label_easy_issue_dates:
+    date: Tarih
+  label_easy_nested:
+    children: Alt Alan Toplamları
+    descendants: Alt alan toplamları
+  label_easy_project_dates:
+    date: Tarih
+  label_easy_user_dates:
+    date: Tarih
+  notice_delayed_update: Değerler 10 dakika içinde hesaplanacak
+  related_custom_fields_for_computed_token: İlgili özel alanlar
+  related_fields_for_computed_token: İlgili alanlar
+  self_custom_fields_for_computed_token: Kendi özel alanları
+  self_fields_for_computed_token: Kendi alanları
+  text_easy_computed_token_edit_not_allowed: Düzenlemeye izin verilmiyor
+  text_help_easy_computed_token_html: Eklemek için aşağıdaki menüdeki simgeye çift
+    tıklayın.

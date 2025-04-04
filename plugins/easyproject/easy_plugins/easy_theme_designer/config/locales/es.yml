@@ -1,0 +1,50 @@
+---
+es:
+  button_create_easy_theme_and_apply: Guardar y aplicar
+  button_easy_theme_design_choose: Elegir
+  button_new_easy_theme_design: Añadir nuevo diseño
+  button_switch_color_toggler: Cambiar colores
+  button_turn_off_easy_theme_designer: Apagar
+  button_update_easy_theme_and_apply: Guardar y aplicar
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: Predeterminados en verde
+      button2_background: Predeterminados en gris
+      button3_background: 'Ej.: Botón de tarea nueva en el menú del proyecto'
+      links_color: Cambiar el color de todos los enlaces comunes
+      top_menu_links_color: Color de los enlaces en la barra del menú superior
+      top_menu_sub_links_color: Color de los enlaces en los submenús en la barra del
+        menú superior
+    names:
+      button1_background: Color de fondo de los botones primarios
+      button1_color: Color de los botones primarios
+      button2_background: Color de fondo de los botones secundarios
+      button2_color: Color de los botones secundarios
+      button3_background: Color de fondo de botones de 3er nivel
+      button3_color: Color de botones de 3er nivel
+      links_color: Color de los enlaces
+      top_menu_links_color: Color de enlaces del menú superior
+      top_menu_sub_links_color: Color de los enlaces en el menú "más"
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_description: Diseñador de branding sencillo
+  easy_theme_designer_plugin_name: Branding personalizado
+  easy_theme_designer:
+    setting_enable_issue_theming: Permite diseño individual del contexto de la tarea
+    setting_enable_project_theming: Permite el diseño individual del contexto del
+      proyecto
+    setting_enable_user_theming: Permite a los usuarios cambiar su tema
+  error_easy_theme_design_is_internal: El tema no se puede eliminar
+  field_background_image: Imagen de fondo
+  field_easy_theme_design: Diseño personalizado
+  field_external_css_file: Cargar CSS desde archivo
+  field_logo: Logotipo
+  field_primary_color: Color primario
+  field_secondary_color: Color de fondo
+  header_easy_theme_designer: Branding personalizado
+  hint_primary_color: Color de la barra del menú superior, elementos del menú activo,
+    botones primarios, etc.
+  hint_secondary_color: Color de los enlaces de submenú, botones secundarios, color
+    de iconos, etc.
+  title_edit_easy_theme_design: 'Actualizar diseño: %{name}'
+  title_new_easy_theme_design: Nuevo diseño
+  warning_failed_to_compile: 'No se ha podido compilar el archivo: %{name}'

@@ -1,0 +1,51 @@
+<p class="wiki-edit" style="overflow:inherit">
+  <%= f.text_area :easy_computed_token, :cols => 20, :rows => 3, :id => 'custom_field_easy_computed_token' %>
+  <em class="info"><%=raw l :text_help_easy_computed_token_html -%></em>
+</p>
+
+<p class="easy_computed_token_section">
+  <%= select_tag 'select_for_computed_symbols', grouped_options_for_select(EasyComputedCustomFields::FieldFormats::EasyComputedToken.symbols_for_cf_to_select( custom_field ) ), :multiple => true, :size => 10, :id => 'select_for_computed_symbols' %>
+</p>
+
+<p>
+  <%= f.fields_for :settings do |s| %>
+    <%= s.select :easy_computed_token_format, options_for_select(computed_custom_field_formats_for_select(custom_field), custom_field.settings['easy_computed_token_format']), :id => 'easy_computed_token_format' %>
+  <% end %>
+</p>
+
+<div id="easy_computed_field_format_selection">
+  <% available_computed_token_form_partials.each do |type, partial| %>
+      <div id="<%= type %>_format" style='display:none;'>
+        <%= render :partial => partial, :locals => {:custom_field => custom_field, :f => f} %>
+      </div>
+  <% end %>
+</div>
+
+<script type="text/javascript">
+  EASY.schedule.late(function () {
+    $("#select_for_computed_symbols").dblclick(function(e) {
+      var $token_field = $("#custom_field_easy_computed_token");
+      $(this).find("option:selected").each(function() {
+        $token_field.val($token_field.val() + '%{' + $(this).val() + '} ');
+      });
+    });
+
+    function toggleType(select) {
+      var select_element = document.getElementById(select);
+      <% available_computed_token_form_partials.each_key do |type| %>
+        var visible = select_element.value === '<%= type %>';
+        var format_group = document.getElementById('<%= type %>_format');
+        format_group.style.display = visible ? '' : 'none';
+        format_group.querySelectorAll('input').forEach(function(input) {
+          visible ? input.removeAttribute('disabled') : input.setAttribute('disabled', 'disabled');
+        });
+      <% end %>
+      $( document ).trigger( "erui_interface_change_vertical" );
+    }
+
+    $("#custom_field_settings_easy_computed_token_format").change(function(e) {
+      toggleType(e.target.id);
+    });
+    toggleType('custom_field_settings_easy_computed_token_format');
+  });
+</script>

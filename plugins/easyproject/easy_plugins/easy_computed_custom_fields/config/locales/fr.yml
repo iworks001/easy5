@@ -1,0 +1,65 @@
+---
+fr:
+  button_recalculate_computed_from_query: Recalculer les champs personnalisés
+  cf_token_today:
+    description: cf_token_today
+    title: cf_token_today
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_name: Champs personnalisés avec formule
+  easy_computed_from_query_available_formula:
+    bool_count: Oui/non à partir du décompte (oui si le décompte des valeurs est supérieur
+      à zéro)
+    bool_sum: Oui/non à partir de la somme (oui si la somme de valeurs est supérieur
+      à zéro)
+    count: Décompte (décompte des valeurs)
+    first: Première (première valeur non vide)
+    join: Joindre (joint les listes en une seule)
+    last: Dernière (dernière valeur non vide)
+    max: Max (maximum des valeurs)
+    min: Min (minimum des valeurs)
+    sum: Somme (somme des valeurs)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: Champs calculés à partir du filtre
+    easy_rake_task_computed_today:
+      caption: Recalculer le ou les champs personnalisés avec le jeton aujourd'hui
+  error_computed_custom_field_cfexistence: champ personnalisé avec id %{id} n'existe
+    pas.
+  error_computed_custom_field_not_float: le jeton n'est pas un schéma de nombre à
+    virgule flottante valide
+  error_computed_custom_field_not_int: le jeton n'est pas un schéma numérique valide
+  error_computed_custom_field_self_dependency: l'auto-dépendance n'est pas activée
+  error_computed_custom_field_unknown_symbols: 'les symboles suivants ne sont pas
+    définis: %{symbols}'
+  field_easy_computed_token: Formule
+  field_easy_computed_token_format: Format du champ calculé
+  fields_for_computed_token_field: champs
+  heading_easy_computed_from_query_define_filter: Définir le filtre
+  label_easy_computed_from_query: Champs calculé à partir du filtre
+  label_easy_computed_from_query_column: Colonne
+  label_easy_computed_from_query_entity_filter: Filtre d'entité
+  label_easy_computed_from_query_formula: Formule
+  label_easy_computed_token: Champ calculé
+  label_easy_computed_token_group_assigned_to: Assigné à
+  label_easy_computed_token_group_issue_parent: Tâche parente
+  label_easy_computed_token_group_issue_priority: Priorité de la tâche
+  label_easy_computed_token_group_parent: Projet parent
+  label_easy_computed_token_group_principal: Utilisateur
+  label_easy_computed_token_group_time_entry_activity: Activité(temps)
+  label_easy_issue_dates:
+    date: Date
+  label_easy_nested:
+    children: Les sommes des champs enfant
+    descendants: Sommes des champs descendants
+  label_easy_project_dates:
+    date: Date
+  label_easy_user_dates:
+    date: Date
+  notice_delayed_update: Les valeurs seront calculées dans 10 minutes
+  related_custom_fields_for_computed_token: Champs personnalisés associés
+  related_fields_for_computed_token: Champs associés
+  self_custom_fields_for_computed_token: Ses propres champs personnalisés
+  self_fields_for_computed_token: Ses propres champs
+  text_easy_computed_token_edit_not_allowed: La modification n'est pas autorisée
+  text_help_easy_computed_token_html: Double-cliquez sur le symbole dans le menu ci-dessous
+    pour l’ajouter.<br />

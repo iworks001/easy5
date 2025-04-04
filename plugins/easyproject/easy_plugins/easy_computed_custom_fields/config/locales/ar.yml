@@ -1,0 +1,60 @@
+---
+ar:
+  button_recalculate_computed_from_query: إعادة حساب الحقول المخصصة
+  cf_token_today:
+    description: cf_token_today
+    title: cf_token_today
+  easy_computed_custom_fields_plugin_author: برنامج Easy
+  easy_computed_custom_fields_plugin_description: ''
+  easy_computed_custom_fields_plugin_name: الحقول المخصصة مع الصيغة
+  easy_computed_from_query_available_formula:
+    bool_count: نعم/لا من العدد (نعم إذا كان عدد القيم أكبر من صفر)
+    bool_sum: نعم/لا من المجموع (نعم إذا كان مجموع القيم أكبر من صفر)
+    count: العدد (عدد القيم)
+    first: الأول (القيمة الأولى غير الفارغة)
+    join: وصل (يجمع القوائم في قائمة واحدة)
+    last: الأخير (القيمة الأخيرة غير الفارغة)
+    max: الحد الأقصى (الحد الأقصى من القيم)
+    min: الحد الأدنى (الحد الأدنى من القيم)
+    sum: المجموع (مجموع القيم)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: الحقول المحسوبة من الفلتر
+    easy_rake_task_computed_today:
+      caption: إعادة حساب CF مع الرمز اليوم
+  error_computed_custom_field_cfexistence: تخصيص الحقل بالرقم التعريفي %{id} غير موجود
+  error_computed_custom_field_not_float: الرمز غير ساري مع نمط الرقم الطافي
+  error_computed_custom_field_not_int: الرمز غير ساري للنمط الرقمي
+  error_computed_custom_field_self_dependency: الاعتماد على الذات ليس مفعلًا
+  error_computed_custom_field_unknown_symbols: اتباع الرموز غير معرف: %{symbols}
+  field_easy_computed_token: الصيغة
+  field_easy_computed_token_format: تنسيق الحقل المحوسب
+  fields_for_computed_token_field: الحقول 
+  heading_easy_computed_from_query_define_filter: تعريف الفلتر
+  label_easy_computed_from_query: الحقل المحوسب من الفلتر
+  label_easy_computed_from_query_column: عامود
+  label_easy_computed_from_query_entity_filter: فلتر الكيان
+  label_easy_computed_from_query_formula: صيغة
+  label_easy_computed_token: الحقل المحوسب
+  label_easy_computed_token_group_assigned_to: محال إلى
+  label_easy_computed_token_group_issue_parent: المهمة الأصلية
+  label_easy_computed_token_group_issue_priority: أولوية المهام
+  label_easy_computed_token_group_parent: "المشروع الأصلي\r\n\r\n "
+  label_easy_computed_token_group_principal: مستخدم
+  label_easy_computed_token_group_time_entry_activity: وقت النشاط
+  label_easy_issue_dates:
+    date: التاريخ
+  label_easy_nested:
+    children: مجموع الحقول التابعة
+    descendants: مجموعة الحقول المنبثقة
+  label_easy_project_dates:
+    date: "التاريخ\r\n\r\n "
+  label_easy_user_dates:
+    date: التاريخ
+  notice_delayed_update: القيم سيتم حسابها خلال 10 دقائق
+  related_custom_fields_for_computed_token: حقول مخصصة ذات صلة
+  related_fields_for_computed_token: الحقول ذات الصلة
+  self_custom_fields_for_computed_token: حقول تخصيص خاصة
+  self_fields_for_computed_token: الحقول الخاصة
+  text_easy_computed_token_edit_not_allowed: التعديل غير مسموح به
+  text_help_easy_computed_token_html: اضغط مرتين على الرمز في القائمة التالية لإضافته.

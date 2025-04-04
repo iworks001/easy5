@@ -1,0 +1,8 @@
+<% if user.safe_attribute?('easy_theme_design_id') %>
+  <%= toggling_fieldset l(:field_easy_theme_design) do %>
+    <p>
+      <%= form.label :easy_theme_design_id %>
+      <%= form.collection_select :easy_theme_design_id, EasyThemeDesign.sorted, :id, :title, include_blank: l(:label_default) %>
+    </p>
+  <% end %>
+<% end %>

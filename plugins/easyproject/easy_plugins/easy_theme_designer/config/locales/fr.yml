@@ -1,0 +1,50 @@
+---
+fr:
+  button_create_easy_theme_and_apply: Enregistrer et appliquer
+  button_easy_theme_design_choose: Choisir
+  button_new_easy_theme_design: Ajouter un nouveau design
+  button_switch_color_toggler: Intervertir les couleurs
+  button_turn_off_easy_theme_designer: Le désactiver
+  button_update_easy_theme_and_apply: Enregistrer et appliquer
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: Verts par défaut
+      button2_background: Gris par défaut
+      button3_background: Par ex. Bouton de nouvelle tâche dans le menu du projet
+      links_color: Changer la couleur de tous les liens courants
+      top_menu_links_color: Couleur des liens dans la barre de menus supérieure
+      top_menu_sub_links_color: Couleur des liens dans les sous-menus de la barre
+        des menus supérieure
+    names:
+      button1_background: Couleur de fond des boutons principaux
+      button1_color: Couleur des boutons principaux
+      button2_background: Couleur de fond des boutons secondaires
+      button2_color: Couleur des boutons secondaires
+      button3_background: Couleur de fond des boutons de 3ème niveau
+      button3_color: Couleur des boutons de 3ème niveau
+      links_color: Couleur des liens
+      top_menu_links_color: Couleur des liens du menu principal
+      top_menu_sub_links_color: Couleur des liens dans le menu "plus"
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_description: Personnalisation facile du design
+  easy_theme_designer_plugin_name: Personnalisation de la marque
+  easy_theme_designer:
+    setting_enable_issue_theming: Autoriser le design individuel du contexte de tâche
+    setting_enable_project_theming: Autoriser le design individuel du contexte du
+      projet
+    setting_enable_user_theming: Permettre aux utilisateurs de modifier leur thème
+  error_easy_theme_design_is_internal: Il n'est pas possible de supprimer le thème
+  field_background_image: Image de fond
+  field_easy_theme_design: Design personnalisé
+  field_external_css_file: Charger le CSS à partir du fichier
+  field_logo: Logo
+  field_primary_color: Couleur principale
+  field_secondary_color: Couleur de fond
+  header_easy_theme_designer: Personnalisation du thème
+  hint_primary_color: Couleur de la barre de menus supérieure, des éléments actif
+    du menu, des boutons principaux, etc.
+  hint_secondary_color: Couleur des liens des sous-menus, des boutons secondaires,
+    couleur des icônes, etc.
+  title_edit_easy_theme_design: Mettre à jour le design : %{name}
+  title_new_easy_theme_design: Nouveau design
+  warning_failed_to_compile: Échec de la compilation du fichier : %{name}

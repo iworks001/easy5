@@ -1,0 +1,61 @@
+---
+sk:
+  button_recalculate_computed_from_query: Prepočítať používateľské polia‌
+  cf_token_today:
+    description: cf_token_today
+    title: cf_token_today
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_description: ''
+  easy_computed_custom_fields_plugin_name: Vypočítané používateľské pole
+  easy_computed_from_query_available_formula:
+    bool_count: Áno / nie z počtu (áno, ak počet hodnôt je väčší ako nula)
+    bool_sum: Áno / Nie zo súčtu (áno, ak súčet hodnôt je väčší ako nula)
+    count: Počet (počet hodnôt)
+    first: Prvé (prvá vyplnená hodnota)
+    join: Spojiť (spojiť záznamy do jedného)
+    last: Posledné (posledná vyplnená hodnota)
+    max: Max (maximum z hodnôt)
+    min: Min (minimum z hodnôt)
+    sum: Súčet (súčet hodnôt)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: Vypočítané polia z filtra‌
+    easy_rake_task_computed_today:
+      caption: Prepočítať používateľské polia s hodnotou "dnes"
+  error_computed_custom_field_cfexistence: používateľské pole s ID %{id} neexistuje.
+  error_computed_custom_field_not_float: výraz nie je platný vzorec pre desatinné
+    čísla‌
+  error_computed_custom_field_not_int: výraz nie je platný vzorec pre celé čísla
+  error_computed_custom_field_self_dependency: pole nemôže závisieť samo na sebe‌
+  error_computed_custom_field_unknown_symbols: zadali ste neznáme symboly %{symbols}
+  field_easy_computed_token: Vzorec
+  field_easy_computed_token_format: Formát výstupu
+  fields_for_computed_token_field: polia
+  heading_easy_computed_from_query_define_filter: Definujte filter
+  label_easy_computed_from_query: Vypočítané pole z filtra
+  label_easy_computed_from_query_column: Stĺpec
+  label_easy_computed_from_query_entity_filter: Filter entity
+  label_easy_computed_from_query_formula: Vzorec
+  label_easy_computed_token: Výpočítané pole
+  label_easy_computed_token_group_assigned_to: Priradené‌
+  label_easy_computed_token_group_issue_parent: Nadradená úloha
+  label_easy_computed_token_group_issue_priority: Priorita úlohy
+  label_easy_computed_token_group_parent: Nadradený projekt
+  label_easy_computed_token_group_principal: Používateľ
+  label_easy_computed_token_group_time_entry_activity: Aktivita (čas)
+  label_easy_issue_dates:
+    date: Dátum
+  label_easy_nested:
+    children: Súčty z priamych podúloh‌
+    descendants: Súčty zo všetkých podúloh
+  label_easy_project_dates:
+    date: Dátum
+  label_easy_user_dates:
+    date: Dátum
+  notice_delayed_update: Hodnoty sa prepočítajú do 10 minút‌
+  related_custom_fields_for_computed_token: Súvisiace používateľské polia‌
+  related_fields_for_computed_token: Súvisiace polia
+  self_custom_fields_for_computed_token: Svoje používateľské polia
+  self_fields_for_computed_token: Vlastné polia‌
+  text_easy_computed_token_edit_not_allowed: Úpravy nie sú povolené‌
+  text_help_easy_computed_token_html: Symbol pridáte dvojklikom vo výbere nižšie.

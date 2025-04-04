@@ -1,0 +1,50 @@
+---
+pt-BR:
+  button_recalculate_computed_from_query: Recalcular campos personalizados
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_name: Campos personalizados com fórmula
+  easy_computed_from_query_available_formula:
+    bool_count: Sim/Não desda contagem (Sim se a contagem for maior que zero)
+    bool_sum: Sim/Não desde soma (Sim se a soma dos valores for maior que zero)
+    count: Contar (contagem de valores)
+    first: Primeiro (primeiro valor não vazio)
+    join: Juntar (juntar listas em uma)
+    last: Último (último valor não vazio)
+    max: Max (máximo a partir de valores)
+    min: Min (mínimo a partir de valores)
+    sum: Soma (soma de valores)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: Campos calculados do filtro
+  error_computed_custom_field_cfexistence: campo personalizado com id %{id} não existe.
+  error_computed_custom_field_not_float: token não é um padrão de número flutuante
+    válido
+  error_computed_custom_field_not_int: token não é um padrão numérico válido
+  error_computed_custom_field_self_dependency: auto-dependência não está habilitado
+  error_computed_custom_field_unknown_symbols: 'os seguintes símbolos não estão definidos:
+    %{symbols}'
+  field_easy_computed_token: Símbolo
+  field_easy_computed_token_format: Formato do campo calculado
+  fields_for_computed_token_field: campos
+  heading_easy_computed_from_query_define_filter: Definir filtro
+  label_easy_computed_from_query: Campo computado desde filtro
+  label_easy_computed_from_query_column: Coluna
+  label_easy_computed_from_query_formula: Fórmula
+  label_easy_computed_token: Campo calculado
+  label_easy_computed_token_group_assigned_to: Atribuído a
+  label_easy_computed_token_group_issue_parent: Tarefa principal
+  label_easy_computed_token_group_issue_priority: Prioridade da tarefa
+  label_easy_computed_token_group_parent: Principal
+  label_easy_computed_token_group_principal: Usuário
+  label_easy_computed_token_group_time_entry_activity: Atividade (tempo)
+  label_easy_nested:
+    children: Soma de campos filhos
+    descendants: Soma de campos descendentes
+  notice_delayed_update: Os valores serão computados em 10 minutos
+  related_custom_fields_for_computed_token: Campos personalizados relacionados
+  related_fields_for_computed_token: Campos relacionados
+  self_custom_fields_for_computed_token: Campos personalizados próprios
+  self_fields_for_computed_token: Campos próprios
+  text_easy_computed_token_edit_not_allowed: Não é permitido editar
+  text_help_easy_computed_token_html: Clique duas vezes no símbolo no menu à direita
+    para adicioná-lo.<br />

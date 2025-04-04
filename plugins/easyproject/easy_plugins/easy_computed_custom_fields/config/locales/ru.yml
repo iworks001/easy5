@@ -1,0 +1,63 @@
+---
+ru:
+  button_recalculate_computed_from_query: Пересчитать настраиваемые поля
+  cf_token_today:
+    description: cf_token_today
+    title: cf_token_today
+  easy_computed_custom_fields_plugin_author: Easy Software
+  easy_computed_custom_fields_plugin_name: Настраиваемые поля с формулами
+  easy_computed_from_query_available_formula:
+    bool_count: Да/нет по кол-ву (да, если кол-во значений больше нуля)
+    bool_sum: Да/нет по сумме (да, если сумма значений больше нуля)
+    count: Количество (кол-во значений)
+    first: Первое (первое непустое значение)
+    join: Объединить (объединение списков в один)
+    last: Последнее (последнее непустое значение)
+    max: Макс. (максимальное из всех значений)
+    min: Мин. (минимальное из всех значений)
+    sum: Сумма (сумма значений)
+  easy_rake_tasks:
+    easy_rake_task_computed_from_query:
+      caption: Вычисляемые поля из фильтра
+    easy_rake_task_computed_today:
+      caption: Пересчитать настраиваемое поле с токеном сегодня
+  error_computed_custom_field_cfexistence: настраиваемое поле с идентификатором %{id}
+    не существует.
+  error_computed_custom_field_not_float: недопустимый символ, формула не поддерживает
+    числа с плавающей запятой
+  error_computed_custom_field_not_int: недопустимый символ, формула работает только
+    с целыми числами
+  error_computed_custom_field_self_dependency: Поле не может ссылаться на себя.
+  error_computed_custom_field_unknown_symbols: 'Заданы неизвестные символы: %{symbols}'
+  field_easy_computed_token: Формула
+  field_easy_computed_token_format: Формат вычисляемого поля
+  fields_for_computed_token_field: поля
+  heading_easy_computed_from_query_define_filter: Определить фильтр
+  label_easy_computed_from_query: Вычисляемое поле из фильтра
+  label_easy_computed_from_query_column: Столбец
+  label_easy_computed_from_query_entity_filter: Фильтр объекта
+  label_easy_computed_from_query_formula: Формула
+  label_easy_computed_token: Вычисляемое поле
+  label_easy_computed_token_group_assigned_to: Закреплено за
+  label_easy_computed_token_group_issue_parent: Родительская задача
+  label_easy_computed_token_group_issue_priority: Приоритет задачи
+  label_easy_computed_token_group_parent: Родительский проект
+  label_easy_computed_token_group_principal: Пользователь
+  label_easy_computed_token_group_time_entry_activity: Действие (время)
+  label_easy_issue_dates:
+    date: Дата
+  label_easy_nested:
+    children: Суммы дочерних полей
+    descendants: Суммы полей потомков
+  label_easy_project_dates:
+    date: Дата
+  label_easy_user_dates:
+    date: Дата
+  notice_delayed_update: Значения будут рассчитаны в течение 10 минут
+  related_custom_fields_for_computed_token: Связанные настраиваемые поля
+  related_fields_for_computed_token: Связанные поля
+  self_custom_fields_for_computed_token: Мои настраиваемые поля
+  self_fields_for_computed_token: Мои поля
+  text_easy_computed_token_edit_not_allowed: Нельзя редактировать
+  text_help_easy_computed_token_html: Для добавления дважды щёлкните мышью по символу
+    в меню ниже.

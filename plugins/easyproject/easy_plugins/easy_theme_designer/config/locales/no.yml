@@ -1,0 +1,41 @@
+---
+'no':
+  button_create_easy_theme_and_apply: Opprett og bruk
+  button_easy_theme_design_choose: Velg
+  button_new_easy_theme_design: Legg til nytt oppsett
+  button_switch_color_toggler: Bytt farger
+  button_turn_off_easy_theme_designer: Slå det av
+  button_update_easy_theme_and_apply: Lagre og bruk
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: Standard er grønn
+      button2_background: Standard er grå
+      button3_background: F.eks. Ny oppgave-knapp i prosjektmeny
+      links_color: Endre farge på alle vanlige lenker
+      top_menu_links_color: Farge på lenker i topp-meny-linjen
+      top_menu_sub_links_color: Farge på lenker i undermenyer i topp-meny-linje
+    names:
+      button1_background: Bakgrunnsfarge på primære knapper
+      button1_color: Farge på primære knapper
+      button2_background: Bakgrunnsfarge på sekundære knapper
+      button2_color: Farge på sekundære knapper
+      button3_background: Bakgrunnsfarge på knapper på 3. nivå
+      button3_color: Farge på knapper på 3. nivå
+      links_color: Farge på lenker
+      top_menu_links_color: Farge på topp-meny-lenker
+      top_menu_sub_links_color: Farge på lenker i "mer"-menyen
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_author_url: http://www.easyproject.cz/en
+  easy_theme_designer_plugin_description: Enkelt profiloppsett
+  easy_theme_designer_plugin_name: Tilpasset profil
+  error_easy_theme_design_is_internal: Tema kan ikke slettes
+  field_external_css_file: Last CSS fra fil
+  field_logo: Logo
+  field_primary_color: Primærfarge
+  field_secondary_color: Sekundærfarge
+  header_easy_theme_designer: Easy temaoppsett
+  hint_primary_color: Farge på topp-menylinje, aktive menyelementer, primærknapper
+    osv.
+  hint_secondary_color: Farge på undermenylenker, sekundære knapper, ikonfarge osv.
+  title_edit_easy_theme_design: 'Oppdater oppsett: %{name}'
+  title_new_easy_theme_design: Nytt oppsett

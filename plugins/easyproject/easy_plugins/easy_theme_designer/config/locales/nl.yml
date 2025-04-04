@@ -1,0 +1,48 @@
+---
+nl:
+  button_create_easy_theme_and_apply: Aanmaken en toepassen
+  button_easy_theme_design_choose: Kiezen
+  button_new_easy_theme_design: Nieuw ontwerp toevoegen
+  button_switch_color_toggler: Wissel kleuren
+  button_turn_off_easy_theme_designer: Schakel uit
+  button_update_easy_theme_and_apply: Opslaan en toepassen
+  easy_theme_design_advanced_attributes:
+    hints:
+      button1_background: Standaarden zijn groen
+      button2_background: Standaarden zijn grijs
+      button3_background: Bijv. Nieuwe taakbutton in project menu
+      links_color: Wijzig kleur van alle gewone links
+      top_menu_links_color: Kleur van links in top-menu bar
+      top_menu_sub_links_color: Color van links in sub-menus in top-menu balk
+    names:
+      button1_background: Achtergrondkleur van primaire buttons
+      button1_color: Kleur van primaire buttons
+      button2_background: Achtergrondkleur van secundaire buttons
+      button2_color: Kleur van secundaire buttons
+      button3_background: Achtergrondkleur van buttons van het 3e niveau
+      button3_color: Kleur van buttons van het 3e niveau
+      links_color: Kleur van links
+      top_menu_links_color: Kleur van top menu links
+      top_menu_sub_links_color: Kleur van links in menu 'meer'
+  easy_theme_designer_plugin_author: Easy Software
+  easy_theme_designer_plugin_author_url: http://www.easyproject.cz/nl
+  easy_theme_designer_plugin_description: Simpele branding designer
+  easy_theme_designer_plugin_name: Aangepaste branding
+  easy_theme_designer:
+    setting_enable_issue_theming: Sta individueel design van taak context toe
+    setting_enable_project_theming: Sta individueel design van project context toe
+    setting_enable_user_theming: Sta gebruikers toe om hun thema te wijzigen
+  error_easy_theme_design_is_internal: Thema kan niet verwijderd worden
+  field_background_image: Achtergrondafbeelding
+  field_easy_theme_design: Aangepast ontwerp
+  field_external_css_file: Laad CSS uit bestand
+  field_logo: Logo
+  field_primary_color: Primaire kleur
+  field_secondary_color: Achtergrondkleur
+  header_easy_theme_designer: Aangepaste branding
+  hint_primary_color: Kleur van top-menu balk, actieve menu items, primaire buttons
+    etc.
+  hint_secondary_color: Kleur van sub-menu links, secondaire buttons, kleur iconen
+    etc.
+  title_edit_easy_theme_design: 'Werk ontwerp: %{name} bij'
+  title_new_easy_theme_design: Nieuw ontwerp
