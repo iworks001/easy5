@@ -689,7 +689,7 @@ module EasyPatch
             html << content_tag(wrapping_heading_element, content, :class => wrapping_heading_element_classes, :style => wrapping_heading_element_styles)
           else
             html << "<div class='group #{'open' if toggle_button_expanded?(modul_uniq_id, user, default)}' >"
-            html << content_tag(wrapping_heading_element, content, :class => wrapping_heading_element_classes, :style => wrapping_heading_element_styles, :onclick => "var target = $((arguments[0] || window.event).target); if( target && !target.hasClass('do_not_toggle') && !target.parent().hasClass('module-heading-links') ) EASY.utils.toggleMyPageModule(this,'#{modul_uniq_id}','#{user.id}', #{ajax_call})")
+            html << content_tag(wrapping_heading_element, content, :class => wrapping_heading_element_classes, :style => wrapping_heading_element_styles, :onclick => "var target = $((arguments[0] || window.event).target); if( target && !target.hasClass('do_not_toggle') && !target.module_parent().hasClass('module-heading-links') ) EASY.utils.toggleMyPageModule(this,'#{modul_uniq_id}','#{user.id}', #{ajax_call})")
             html << "<span class='expander #{expander_options[:class]}' onclick=\"EASY.utils.toggleMyPageModule($(this),'#{modul_uniq_id}','#{user.id}', #{ajax_call}); return false;\" id=\"expander_#{modul_uniq_id}\">&nbsp;</span>"
             html << '</div>'
           end
@@ -922,7 +922,7 @@ module EasyPatch
         def toggle_display_style_row(basic_id, entity = nil, user = nil, entity_name = nil, default = false)
           ret = false
           if entity
-            if parent = entity.parent
+            if parent = entity.module_parent
               parent_prefix = basic_id + (entity_name.nil? ? entity.class.name.underscore : entity_name) + '-' + parent.id.to_s
               ret           ||= !toggle_button_expanded?(parent_prefix, user, default)
             end

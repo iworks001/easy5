@@ -42,7 +42,7 @@ class DataTemplateProjectRow < DataTemplateEntityRowBase
       when 'parent_id'
         data[(assignment.file_column_position-1)] = sanitize_clean(project.parent_id)
       when 'parent_name'
-        data[(assignment.file_column_position-1)] = project.parent_id.blank? ? "" : sanitize_clean(project.parent.name)
+        data[(assignment.file_column_position-1)] = project.parent_id.blank? ? "" : sanitize_clean(project.module_parent.name)
       when 'trackers_ids'
         data[(assignment.file_column_position-1)] = project.trackers.blank? ? "" : sanitize_clean(project.trackers.pluck(:id).join(","))
       when 'trackers_names'

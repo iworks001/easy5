@@ -109,7 +109,7 @@ module EasyEntityImports
         if level <= 4
           # its project
           entity                     ||= Project.new(name: name, easy_start_date: read(node, 'Start'), easy_due_date: read(node, 'Finish'))
-          entity.parent              = parent if parent.is_a?(Project)
+          entity.module_parent              = parent if parent.is_a?(Project)
           entity.custom_field_values = { '107' => wbs_code }
         else
           # its task
@@ -125,7 +125,7 @@ module EasyEntityImports
           entity.status     = entity.default_status
           entity.start_date = read(node, 'Start')
           entity.due_date   = read(node, 'Finish')
-          entity.parent if parent.is_a?(Issue)
+          entity.module_parent if parent.is_a?(Issue)
           entity.custom_field_values = { '106' => wbs_code }
 
           # est = read(node, 'Work')
@@ -235,7 +235,7 @@ module EasyEntityImports
           @non_save_relation2 << relation
         end
       end
-      Issue.where.not(parent_id: nil).find_each { |i| i.parent.nil? && i.update_column(:parent_id, nil) }
+      Issue.where.not(parent_id: nil).find_each { |i| i.module_parent.nil? && i.update_column(:parent_id, nil) }
       Issue.rebuild_tree!
       Project.rebuild_tree!
       @non_save_relation3 = []

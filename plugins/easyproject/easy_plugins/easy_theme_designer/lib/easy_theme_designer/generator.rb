@@ -34,7 +34,7 @@ module EasyThemeDesigner
           asset_source = Pathname.new File.join(self.class.themes_path, "#{filename}.scss")
 
           body = ERB.new(File.read(file_path)).result(get_binding)
-          FileUtils.mkdir_p(asset_source.parent.to_s) unless asset_source.parent.exist?
+          FileUtils.mkdir_p(asset_source.module_parent.to_s) unless asset_source.module_parent.exist?
           File.open(asset_source.to_s, 'wb') { |f| f.write(body) }
           asset = env.find_asset(filename)
 

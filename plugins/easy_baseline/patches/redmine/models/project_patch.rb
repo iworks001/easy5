@@ -67,7 +67,7 @@ module EasyBaseline
         baseline.name =  options[:name] || "#{format_time(Time.now)} #{self.name}"
         baseline.identifier = options[:name].present? ? options[:name].parameterize : "#{self.identifier}_#{Time.now.strftime('%Y%m%d%H%M%S')}"
         baseline.easy_baseline_for_id = self.id
-        baseline.parent = EasyBaseline.baseline_root_project
+        baseline.module_parent = EasyBaseline.baseline_root_project
         # Project.copy_from change customized so CV are not copyied but moved
         # Already done in easyredmine
         baseline.custom_values = self.custom_values.map{ |v|

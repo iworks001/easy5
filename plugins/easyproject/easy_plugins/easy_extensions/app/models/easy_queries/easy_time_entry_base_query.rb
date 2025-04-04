@@ -142,7 +142,7 @@ class EasyTimeEntryBaseQuery < EasyQuery
                               sortable: "#{Version.table_name}.name",
                               caption: :label_version,
                               includes: [issue: :fixed_version]),
-          EasyQueryColumn.new(:'issue.parent.subject',
+          EasyQueryColumn.new(:'issue.module_parent.subject',
                               groupable: "#{Issue.table_name}.parent_id",
                               sortable: 'parents_issues_sort.subject',
                               caption: :field_parent_issue,

@@ -20,7 +20,7 @@ module Rys
       plugins = all_plugins.dup
 
       if !systemic
-        plugins.select! {|p| !p.parent.config.systemic }
+        plugins.select! {|p| !p.module_parent.config.systemic }
       end
 
       if delegate_with

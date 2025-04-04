@@ -33,7 +33,7 @@ module EasyExtensions
         next unless src && src.value.include?('base64') && src.value.match(regexp)
         ext, data   = $1, $2
         filename    = "Image#{Time.now.strftime('%Y%m%d%H%M%S')}_#{n}.#{ext}"
-        replacement = Nokogiri::XML::Text.new("\nattachment:\"#{filename}\"\n", img.parent)
+        replacement = Nokogiri::XML::Text.new("\nattachment:\"#{filename}\"\n", img.module_parent)
         img.replace(replacement)
         generate_image(n, ext, filename, data)
         n += 1

@@ -66,8 +66,8 @@ module EasyPatch
       end
 
       def notification_field_with_easy_extensions(notifiable)
-        tag_data = notifiable.parent.present? ?
-                       { :parent_notifiable => notifiable.parent } :
+        tag_data = notifiable.module_parent.present? ?
+                       { :parent_notifiable => notifiable.module_parent } :
                        { :disables => "input[data-parent-notifiable=#{notifiable.name}]" }
 
         tag = check_box_tag('settings[notified_events][]',
@@ -80,7 +80,7 @@ module EasyPatch
 
         options         = {}
         options[:class] = "checkbox inline"
-        if notifiable.parent.present?
+        if notifiable.module_parent.present?
           options[:class] << " parent"
         end
 

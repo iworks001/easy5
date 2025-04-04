@@ -17,7 +17,7 @@ module EasyPatch
                 allowable_endpoint = (node.content.rindex(seperator, allowable_endpoint) || allowable_endpoint)
               end
 
-              content = ::Nokogiri::XML::Text.new(node.content.slice(0, allowable_endpoint), node.parent)
+              content = ::Nokogiri::XML::Text.new(node.content.slice(0, allowable_endpoint), node.module_parent)
               span    = ::Nokogiri::XML::Node.new 'span', node
               span.add_child(content)
               span.add_child(om)
@@ -87,10 +87,10 @@ module EasyPatch
         self.children.each do |child|
           child.remove and next if child.is_a?(Nokogiri::XML::ProcessingInstruction)
           if child.inner_text.blank?
-            if child.parent.children.count > 1
+            if child.module_parent.children.count > 1
               child.remove
             else
-              child.parent.remove
+              child.module_parent.remove
             end
           else
             child.delete_empty_node

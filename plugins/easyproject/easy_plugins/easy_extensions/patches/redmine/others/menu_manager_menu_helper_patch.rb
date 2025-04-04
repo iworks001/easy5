@@ -86,7 +86,7 @@ module EasyPatch
 
         def render_menu_easy_node(node, project = nil)
           if node.children.present? || !node.child_menus.nil?
-            if node.parent.name == :root
+            if node.module_parent.name == :root
               return render_menu_easy_node_with_children(node, project)
             else
               return render_menu_node_with_children(node, project)
@@ -189,7 +189,7 @@ module EasyPatch
     module InstanceMethods
 
       def extract_node_details_with_easy_extensions(node, entity = nil)
-        entity  ||= node.project || (node.parent && node.parent.project)
+        entity  ||= node.project || (node.module_parent && node.module_parent.project)
         item    = node
         caption = item.caption(entity)
         url     = case item.url

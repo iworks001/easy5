@@ -136,7 +136,7 @@ class EasyUserTimeCalendar < ActiveRecord::Base
   end
 
   def first_day_of_week
-    self.parent.nil? ? read_attribute(:first_day_of_week) : self.parent.first_day_of_week
+    self.module_parent.nil? ? read_attribute(:first_day_of_week) : self.module_parent.first_day_of_week
   end
 
   def translated_name
@@ -237,7 +237,7 @@ class EasyUserTimeCalendar < ActiveRecord::Base
 
     working_days.delete_if(&:blank?)
     if working_days.empty?
-      return self.parent ? self.parent.working_week_days : (1..5).to_a
+      return self.module_parent ? self.module_parent.working_week_days : (1..5).to_a
     end
     working_days.map(&:to_i)
   end
@@ -251,7 +251,7 @@ class EasyUserTimeCalendar < ActiveRecord::Base
   end
 
   def holiday(day)
-    (self.parent.nil? ? self : self.parent).holidays.detect { |ex| ex.is_repeating? ? (ex.holiday_date.day == day.day && ex.holiday_date.month == day.month) : (ex.holiday_date == day) }
+    (self.module_parent.nil? ? self : self.module_parent).holidays.detect { |ex| ex.is_repeating? ? (ex.holiday_date.day == day.day && ex.holiday_date.month == day.month) : (ex.holiday_date == day) }
   end
 
   def holiday?(day)
@@ -260,13 +260,13 @@ class EasyUserTimeCalendar < ActiveRecord::Base
 
   def exception(day)
     exceptions_between_cache.day(day) ||
-        (self.parent.nil? ? self.exceptions : self.exceptions + self.parent.exceptions).detect { |ex| ex.exception_date == day }
+        (self.module_parent.nil? ? self.exceptions : self.exceptions + self.module_parent.exceptions).detect { |ex| ex.exception_date == day }
   end
 
   def exception_between(day_from, day_to)
     exceptions_between_cache.with_cache(day_from, day_to, range: true) do |from, to|
       e = self.exceptions.where(["#{EasyUserTimeCalendarException.table_name}.exception_date BETWEEN ? AND ?", from, to])
-      e += self.parent.exception_between(from, to) unless self.parent_id.blank?
+      e += self.module_parent.exception_between(from, to) unless self.parent_id.blank?
       e
     end
   end

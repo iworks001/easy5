@@ -408,7 +408,7 @@ module EasyPatch
         end
 
         def parent_category
-          @parent_category ||= self.category.parent if self.category
+          @parent_category ||= self.category.module_parent if self.category
         end
 
         def root_category
@@ -806,7 +806,7 @@ module EasyPatch
         end
 
         def copy_notes_to_parent_task
-          if @current_journal && @current_journal.notes.present? && (parent = self.parent)
+          if @current_journal && @current_journal.notes.present? && (parent = self.module_parent)
             parent.init_journal(@current_journal.user, @current_journal.notes)
             parent.current_journal.private_notes   = @current_journal.private_notes
             parent.current_journal.is_system = @current_journal.is_system
@@ -826,7 +826,7 @@ module EasyPatch
             journal.details << JournalDetail.new(property: 'relation', prop_key: 'subtask', old_value: self.id, value: nil)
             journal.save
           end
-          if (new_parent = self.parent)
+          if (new_parent = self.module_parent)
             journal = new_parent.init_journal(User.current)
             journal.details << JournalDetail.new(property: 'relation', prop_key: 'subtask', old_value: nil, value: self.id)
             journal.save

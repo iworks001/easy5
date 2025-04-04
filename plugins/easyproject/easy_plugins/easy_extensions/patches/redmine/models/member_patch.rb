@@ -41,7 +41,7 @@ module EasyPatch
       end
 
       def copy_mail_notification_from_parent(parent_id = nil)
-        parent_id ||= project.parent.id if project && project.parent
+        parent_id ||= project.module_parent.id if project && project.module_parent
         if parent_id && user
           membership = Member.find_by(:user_id => user.id, :project_id => parent_id)
           if membership && membership.mail_notification

@@ -61,8 +61,8 @@ module EasyPatch
 
         def copy_journal_to_parent_and_children
           issues_for_copy = []
-          if self.issue.parent && self.issue.parent.tracker.easy_distributed_tasks? && !self.issue.tracker.easy_distributed_tasks?
-            issues_for_copy << self.issue.parent
+          if self.issue.module_parent && self.issue.module_parent.tracker.easy_distributed_tasks? && !self.issue.tracker.easy_distributed_tasks?
+            issues_for_copy << self.issue.module_parent
             issues_for_copy.concat(self.issue.siblings)
           elsif self.issue.tracker.easy_distributed_tasks?
             issues_for_copy.concat(self.issue.children)

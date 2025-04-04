@@ -511,7 +511,7 @@ class EasyIssueQuery < EasyQuery
     all_issues = result.values.collect { |v| v[:entities] }.flatten
     subtasks   = []
     result.each do |key, data|
-      data[:entities].delete_if { |i| i.parent && all_issues.include?(i.parent) && subtasks << i }
+      data[:entities].delete_if { |i| i.module_parent && all_issues.include?(i.module_parent) && subtasks << i }
     end
 
     if project && (!grouped? || group_by == 'project')
@@ -568,8 +568,8 @@ class EasyIssueQuery < EasyQuery
 
     subtasks.keys.sort.each do |level|
       subtasks[level].reverse_each do |subtask|
-        v_hash = result.values.detect { |v| v[:entities].include?(subtask.parent) }
-        v_hash[:entities].insert(v_hash[:entities].index(subtask.parent) + 1, subtask) if v_hash
+        v_hash = result.values.detect { |v| v[:entities].include?(subtask.module_parent) }
+        v_hash[:entities].insert(v_hash[:entities].index(subtask.module_parent) + 1, subtask) if v_hash
       end
     end
 

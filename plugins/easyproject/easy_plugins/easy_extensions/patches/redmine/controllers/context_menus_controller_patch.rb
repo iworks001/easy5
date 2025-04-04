@@ -117,7 +117,7 @@ module EasyPatch
               @all_closed = true
             when Project::STATUS_ARCHIVED
               @all_archived  = true
-              @can_unarchive = User.current.admin? && !@projects.any? { |project| project.parent && project.parent.archived? }
+              @can_unarchive = User.current.admin? && !@projects.any? { |project| project.module_parent && project.module_parent.archived? }
             end
           end
           render :layout => false

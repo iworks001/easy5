@@ -9,7 +9,7 @@ module EasyPatch
 
       def easy_delete(name)
         if (found = self.find(name))
-          found.parent.remove!(found)
+          found.module_parent.remove!(found)
         end
       end
 

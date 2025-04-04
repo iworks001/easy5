@@ -168,7 +168,7 @@ module Redmine
 
       registered_plugins[id] = p
 
-      if plugin_path.parent.basename.to_s != 'plugins' && (file = plugin_path.join('config', 'routes.rb')).exist?
+      if plugin_path.module_parent.basename.to_s != 'plugins' && (file = plugin_path.join('config', 'routes.rb')).exist?
         begin
           RedmineApp::Application.routes.prepend do
             instance_eval File.read(file)

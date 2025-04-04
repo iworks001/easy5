@@ -331,7 +331,7 @@ module EasyPatch
         def render_hidden_issue_attribute_for_edit_parent_id(issue, form, options = {})
           return unless issue.safe_attribute?('parent_issue_id')
           content_tag(:p, :class => 'easy-autocomplete-parent_id') do
-            parent_val = EasyExtensions::FieldFormats::EasyLookup.entity_to_lookup_values(issue.parent_issue || issue.parent) || {}
+            parent_val = EasyExtensions::FieldFormats::EasyLookup.entity_to_lookup_values(issue.parent_issue || issue.module_parent) || {}
             label_tag(:parent_issue_id, l(:field_parent_issue)) +
                 form.hidden_field(:parent_issue_id, :value => '', :id => '') +
                 easy_modal_selector_field_tag('Issue', 'link_with_subject', "#{form.object_name}[parent_issue_id]", "#{form.object_name}_parent_issue_id", parent_val, :multiple => false, :url => { :modal_project_id => issue.project_id, :parent_selection => true })

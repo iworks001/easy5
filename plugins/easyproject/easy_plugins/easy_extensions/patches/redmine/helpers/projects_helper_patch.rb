@@ -79,7 +79,7 @@ module EasyPatch
             api.identifier(project.identifier)
             api.description(project.description)
             api.homepage(project.homepage)
-            api.parent(:id => project.parent.id, :name => project.parent.name) if project.parent && project.parent.visible?
+            api.module_parent(:id => project.module_parent.id, :name => project.module_parent.name) if project.module_parent && project.module_parent.visible?
             api.status(project.status)
             api.is_public(project.is_public?)
             api.easy_is_easy_template(project.easy_is_easy_template)
@@ -322,8 +322,8 @@ module EasyPatch
           if !apply_sort?(query)
             final_projects_collection = []
             projects.each do |p|
-              if (p.child? && !projects.include?(p.parent))
-                parent          = p.parent
+              if (p.child? && !projects.include?(p.module_parent))
+                parent          = p.module_parent
                 parent.nofilter = " nofilter"
                 final_projects_collection << parent
                 final_projects_collection << p
@@ -439,7 +439,7 @@ module EasyPatch
       def parent_project_select_tag_with_easy_extensions(project, options = {})
         options        ||= {}
         options[:html] ||= {}
-        selected       = project.parent
+        selected       = project.module_parent
         if options[:force] == :projects && selected && selected.easy_is_easy_template?
           selected = nil
         end

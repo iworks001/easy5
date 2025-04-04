@@ -368,7 +368,7 @@ module EasyPatch
         end
 
         def save_entity_attributes
-          return unless self.easy_is_repeating || (self.parent && self.parent.easy_is_repeating)
+          return unless self.easy_is_repeating || (self.module_parent && self.module_parent.easy_is_repeating)
           repeat_settings = self.easy_repeat_settings.dup.merge({ 'entity_attributes' => self.attributes.except('easy_repeat_settings', 'id', 'root_id', 'parent_id', 'lft', 'rgt', 'created_on', 'updated_on') })
           self.update_column(:easy_repeat_settings, repeat_settings)
         end

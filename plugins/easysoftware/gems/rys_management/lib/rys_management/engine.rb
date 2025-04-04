@@ -6,7 +6,7 @@ module RysManagement
 
     config.before_configuration do
       Rys::PluginsManagement.all do |plugin|
-        plugin.parent&.include(RysManagement::PluginConfig)
+        plugin.module_parent&.include(RysManagement::PluginConfig)
       end
     end
 

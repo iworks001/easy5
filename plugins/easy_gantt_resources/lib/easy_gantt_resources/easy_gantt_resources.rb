@@ -57,7 +57,7 @@ module EasyGanttResources
 
     calendars.each do |calendar|
       user_id = calendar.user_id
-      calendar = (calendar.parent.nil? ? calendar : calendar.parent)
+      calendar = (calendar.module_parent.nil? ? calendar : calendar.module_parent)
       calendar_holidays[calendar.id] ||= begin
         events = Hash.new { |hash, key| hash[key] = [] }
         calendar.holidays.each do |holiday|

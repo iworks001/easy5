@@ -5,7 +5,7 @@ module EasyRatingInfoHelper
     url = url_for(url_params)
     link_to_function(
         text,
-        "$(this).parents('.rating-infos').parent().load('#{url}')",
+        "$(this).module_parents('.rating-infos').module_parent().load('#{url}')",
         html_options
     )
   end

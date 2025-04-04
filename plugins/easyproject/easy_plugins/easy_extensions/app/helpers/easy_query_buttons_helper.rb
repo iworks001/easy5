@@ -246,7 +246,7 @@ module EasyQueryButtonsHelper
 
   def easy_project_query_additional_ending_buttons(project, options = {})
     favorited_label = project.favorited ? l(:label_unfavorite) : l(:label_favorite)
-    link_to(content_tag(:span, favorited_label, class: 'tooltip'), favorite_project_path(project), remote: true, method: :post, class: "toggle-favorite #{project.favorited ? 'icon-fav favorited' : 'icon-fav-off'}", id: "favorite_project_#{project.id}", title: favorited_label, onclick: '$(this).parent().toggleClass("u__opacity--1")')
+    link_to(content_tag(:span, favorited_label, class: 'tooltip'), favorite_project_path(project), remote: true, method: :post, class: "toggle-favorite #{project.favorited ? 'icon-fav favorited' : 'icon-fav-off'}", id: "favorite_project_#{project.id}", title: favorited_label, onclick: '$(this).module_parent().toggleClass("u__opacity--1")')
   end
 
   def easy_admin_project_query_additional_ending_buttons(project, options = {})

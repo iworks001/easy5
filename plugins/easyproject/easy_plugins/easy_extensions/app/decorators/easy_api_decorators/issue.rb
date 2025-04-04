@@ -32,7 +32,7 @@ module EasyApiDecorators
         end
         api.category(:id => @issue.category_id, :name => @issue.category.name) unless @issue.category.nil?
         api.fixed_version(:id => @issue.fixed_version_id, :name => @issue.fixed_version.name) unless @issue.fixed_version.nil?
-        api.parent(:id => @issue.parent_id) unless @issue.parent.nil?
+        api.module_parent(:id => @issue.parent_id) unless @issue.module_parent.nil?
 
         api.subject @issue.subject
         api.description @issue.description

@@ -18,7 +18,7 @@ module EasySwagger
         key :example, "I can’t abide these Jawas. Disgusting creatures."
       end
 
-      relation *%w[parent], if: ->(_context, project) { project.parent && project.parent.visible? }
+      relation *%w[parent], if: ->(_context, project) { project.module_parent && project.module_parent.visible? }
       relation *%w[author]
 
       %w[is_planned].each do |column|
