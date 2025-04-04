@@ -1,6 +1,8 @@
 # Hooks definitions
 # http://www.redmine.org/projects/redmine/wiki/Hooks
 #
+require_dependency Rails.root.join('lib', 'redmine', 'hook').to_s
+require_dependency Rails.root.join('lib', 'redmine', 'hook', 'view_listener').to_s
 module DependentListCustomField
   class Hooks < ::Redmine::Hook::ViewListener
     def easy_extensions_javascripts_hook(context={})
