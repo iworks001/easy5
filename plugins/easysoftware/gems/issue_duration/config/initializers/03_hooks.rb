@@ -1,3 +1,6 @@
+require_dependency Rails.root.join('lib', 'redmine', 'hook').to_s
+require_dependency Rails.root.join('lib', 'redmine', 'hook', 'listener').to_s
+require_dependency Rails.root.join('lib', 'redmine', 'hook', 'view_listener').to_s
 module IssueDuration
   class Hooks < ::Redmine::Hook::ViewListener
     render_on :view_issues_form_details_bottom, partial: 'issues/issue_easy_duration_field'
