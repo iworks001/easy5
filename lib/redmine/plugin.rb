@@ -51,13 +51,19 @@ module Redmine
   # See: http://www.redmine.org/projects/redmine/wiki/Plugin_Tutorial
   class Plugin
     # Absolute path to the directory where plugins are located
-    cattr_accessor :directory
-    self.directory = PluginLoader.directory
+#    cattr_accessor :directory
+#    self.directory = PluginLoader.directory
 
     # Absolute path to the plublic directory where plugins assets are copied
-    cattr_accessor :public_directory
-    self.public_directory = PluginLoader.public_directory
+#    cattr_accessor :public_directory
+#    self.public_directory = PluginLoader.public_directory
+cattr_accessor :directory
+self.directory = Rails.root.join('plugins')
 
+cattr_accessor :public_directory
+self.public_directory = Rails.root.join('public/plugin_assets')
+
+    
     @registered_plugins = {}
     @used_partials = {}
 
@@ -104,7 +110,9 @@ module Redmine
         raise PluginNotFound, "Plugin not found. The directory for plugin #{p.id} should be #{p.directory}."
       end
 
-      p.path = PluginLoader.directories.find {|d| d.to_s == p.directory}
+      #p.path = PluginLoader.directories.find {|d| d.to_s == p.directory}
+plugin_dirs = Dir.glob(Rails.root.join('plugins', '*')).map(&:to_s)
+p.path = plugin_dirs.find { |d| d.to_s == p.directory }
 
       # Adds plugin locales if any
       # YAML translation files should be found under <plugin>/config/locales/
