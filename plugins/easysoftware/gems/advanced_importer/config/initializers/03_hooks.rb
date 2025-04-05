@@ -1,5 +1,7 @@
 
-require_dependency Rails.root.join('plugins', 'easysoftware', 'gems', 'advanced_importer', 'lib', 'advanced_importer', 'hooks', 'view_hooks').to_s
+Rails.application.config.to_prepare do
+  require_dependency Rails.root.join('plugins', 'easysoftware', 'gems', 'advanced_importer', 'lib', 'advanced_importer', 'hooks', 'view_hooks').to_s
+end
 
 # Hooks definitions
 # http://www.redmine.org/projects/redmine/wiki/Hooks

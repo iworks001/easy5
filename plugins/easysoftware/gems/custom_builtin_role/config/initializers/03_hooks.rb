@@ -1,11 +1,9 @@
-require_dependency Rails.root.join('lib', 'redmine', 'hook').to_s
-require_dependency Rails.root.join('lib', 'redmine', 'hook', 'listener').to_s
-require_dependency Rails.root.join('lib', 'redmine', 'hook', 'view_listener').to_s
+Rails.application.config.to_prepare do
+  require_dependency Rails.root.join('plugins', 'easysoftware', 'gems', 'custom_builtin_role', 'lib', 'custom_builtin_role', 'hooks', 'view_hooks').to_s
+end
+
 # Hooks definitions
 # http://www.redmine.org/projects/redmine/wiki/Hooks
-#
-require_dependency Rails.root.join('lib', 'redmine', 'hook').to_s
-require_dependency Rails.root.join('lib', 'redmine', 'hook', 'view_listener').to_s
 Rails.application.config.to_prepare do
 module CustomBuiltinRole
   class Hooks < ::Redmine::Hook::ViewListener
