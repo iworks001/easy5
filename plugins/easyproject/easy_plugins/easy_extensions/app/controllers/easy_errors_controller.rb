@@ -91,7 +91,8 @@ class EasyErrorsController < ApplicationController
   def redmine_info
     redmine_info                        = {}
     redmine_info['Redmine environment'] = [
-        ['Redmine version', Redmine::VERSION],
+       # ['Redmine version', Redmine::VERSION],
+        ['Redmine version', Redmine::Info.version],
         ['Full version', EasyExtensions.full_version],
         ['Platform version', EasyExtensions.platform_version],
         ['Last commit SHA', shellout('git rev-parse HEAD')],

@@ -9,7 +9,8 @@ Redmine::Plugin.register :easy_extensions do
   should_be_disabled false
   plugin_in_relative_subdirectory File.join('easyproject', 'easy_plugins')
 
-  requires_redmine version_or_higher: '4.1.0'
+  #requires_redmine version_or_higher: '4.1.0'
+  requires_redmine version_or_higher: '5.1.7'
 
   settings easy_settings: {
       journal_history_limit: 10
