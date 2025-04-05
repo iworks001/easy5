@@ -1,7 +1,9 @@
 module DependentListCustomField
   module Hooks
     class ViewHooks < ::Redmine::Hook::ViewListener
-      # Hook 정의가 필요하다면 여기에 추가
+      def easy_extensions_javascripts_hook(context = {})
+        context[:template].require_asset('dependent_list_custom_field/dependent_list')
+      end
     end
   end
 end
