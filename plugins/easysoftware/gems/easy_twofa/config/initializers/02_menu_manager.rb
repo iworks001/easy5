@@ -1,3 +1,4 @@
+Rails.application.config.to_prepare do
 Redmine::MenuManager.map :admin_menu do |menu|
   menu.push :easy_twofa,
             :setting_easy_twofa_path,
@@ -5,7 +6,7 @@ Redmine::MenuManager.map :admin_menu do |menu|
             html: { class: 'icon icon-passwd' },
             if: proc { |p| !EasyTwofa.easy_extensions? && User.current.admin? && Rys::Feature.active?('easy_twofa') }
 end
-
+end
 # Redmine::MenuManager.map :project_menu do |menu|
 #   menu.push :easy_twofa,
 #             :easy_twofas_path,

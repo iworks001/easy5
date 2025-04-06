@@ -1,11 +1,7 @@
-require_dependency Rails.root.join('lib', 'redmine', 'hook').to_s
-require_dependency Rails.root.join('lib', 'redmine', 'hook', 'listener').to_s
-require_dependency Rails.root.join('lib', 'redmine', 'hook', 'view_listener').to_s
+Rails.application.config.to_prepare do
+  require_dependency Rails.root.join('plugins', 'easysoftware', 'gems', 'easy_sso', 'lib', 'easy_sso', 'hooks', 'view_hooks').to_s
+end
+
 # Hooks definitions
 # http://www.redmine.org/projects/redmine/wiki/Hooks
 #
-module EasySso
-  # class Hooks < ::Redmine::Hook::ViewListener
-  #   render_on :view_issues_show_details_bottom, partial: 'issues/easy_sso/view_issues_show_details_bottom'
-  # end
-end

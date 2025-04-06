@@ -1,21 +1,4 @@
-require_dependency Rails.root.join('lib', 'redmine', 'hook').to_s
-require_dependency Rails.root.join('lib', 'redmine', 'hook', 'listener').to_s
-require_dependency Rails.root.join('lib', 'redmine', 'hook', 'view_listener').to_s
-# Hooks definitions
-# http://www.redmine.org/projects/redmine/wiki/Hooks
-#
-module ShowLastCommentsOnIssue
-  class Hooks < ::Redmine::Hook::ViewListener
-
-    def view_issues_show_details_bottom(context = {})
-      context[:hook_caller].render partial: 'issues/show_last_comments_on_issue/view_issues_show_details_bottom', locals: {issue: context[:issue]} if Rys::Feature.active?('show_last_comments_on_issue.show')
-    end
-
-    def view_issue_settings_display(context = {})
-      if ShowLastCommentsOnIssue.show_settings?
-        context[:hook_caller].render partial: 'settings/show_issue_last_comments_limit_easy_settings'
-      end
-    end
-
-  end
+Rails.application.config.to_prepare do
+  require_dependency Rails.root.join('plugins', 'easysoftware', 'gems', 'show_last_comments_on_issue', 'lib', 'show_last_comments_on_issue', 'hooks', 'view_hooks').to_s
 end
+

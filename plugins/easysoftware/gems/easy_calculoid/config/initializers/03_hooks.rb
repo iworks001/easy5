@@ -1,9 +1,4 @@
-require_dependency Rails.root.join('lib', 'redmine', 'hook').to_s
-require_dependency Rails.root.join('lib', 'redmine', 'hook', 'listener').to_s
-require_dependency Rails.root.join('lib', 'redmine', 'hook', 'view_listener').to_s
-module EasyCalculoid
-  class Hooks < ::Redmine::Hook::ViewListener
-    render_on :edit_trend_module_form_bottom, partial: 'easy_calculoid/trends_hidden_checkbox'
-    render_on :show_trend_module_bottom, partial: 'easy_calculoid/trends_hide'
-  end
+Rails.application.config.to_prepare do
+  require_dependency Rails.root.join('plugins', 'easysoftware', 'gems', 'easy_calculoid', 'lib', 'easy_calculoid', 'hooks', 'view_hooks').to_s
 end
+

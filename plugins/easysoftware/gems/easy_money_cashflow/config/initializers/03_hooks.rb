@@ -1,11 +1,7 @@
-require_dependency Rails.root.join('lib', 'redmine', 'hook').to_s
-require_dependency Rails.root.join('lib', 'redmine', 'hook', 'listener').to_s
-require_dependency Rails.root.join('lib', 'redmine', 'hook', 'view_listener').to_s
+Rails.application.config.to_prepare do
+  require_dependency Rails.root.join('plugins', 'easysoftware', 'gems', 'easy_money_cashflow', 'lib', 'easy_money_cashflow', 'hooks', 'view_hooks').to_s
+end
+
 # Hooks definitions
 # http://www.redmine.org/projects/redmine/wiki/Hooks
 
-module EasyMoneyCashflow
-  class Hooks < ::Redmine::Hook::ViewListener
-    render_on :view_easy_money_cash_flow_link, partial: 'easy_money/link_to_cash_flow'
-  end
-end

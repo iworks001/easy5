@@ -14,7 +14,7 @@
 #             html: { class: 'icon icon-invoice' },
 #             if: proc { |p| User.current.admin? }
 # end
-
+Rails.application.config.to_prepare do
 Redmine::MenuManager.map :top_menu do |menu|
   menu.push(:label_easy_money_cash_flow, { controller: 'easy_money_cash_flow', action: :index },
       parent: :easy_money,
@@ -22,4 +22,5 @@ Redmine::MenuManager.map :top_menu do |menu|
       if: Proc.new { Rys::Feature.active?('easy_money_cashflow') && (User.current.allowed_to_globally?(:easy_money_cash_flow_history, {}) || User.current.allowed_to_globally?(:easy_money_cash_flow_prediction, {})) },
       html: { class: 'icon icon-cashflow' }
   )
+end
 end
