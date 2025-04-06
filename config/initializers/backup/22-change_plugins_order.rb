@@ -37,4 +37,3 @@ module Redmine
   end
 
 end
-

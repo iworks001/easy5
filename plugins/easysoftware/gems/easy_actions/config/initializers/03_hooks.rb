@@ -1,4 +1,4 @@
-Rails.application.config.to_prepare do
+ActiveSupport.on_load(:after_initialize) do
   require_dependency Rails.root.join('plugins', 'easysoftware', 'gems', 'easy_actions', 'lib', 'easy_actions', 'hooks', 'view_hooks').to_s
 end
 # Hooks definitions
