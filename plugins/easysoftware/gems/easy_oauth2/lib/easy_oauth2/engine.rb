@@ -7,7 +7,9 @@ module EasyOauth2
     rys_id 'easy_oauth2'
 
     initializer 'easy_oauth2.setup' do
-require Rails.root.join('plugins', 'easyproject', 'init.rb').to_s
+Rails.configuration.to_prepare do
+        require_dependency 'easy_extensions/identity_providers'
+        require_dependency 'easy_extensions/identity_services'
       if EasyProjectLoader.can_start?
 
         EasyExtensions::IdentityProviders.register(-> { EasyOauth2ClientApplication.active.to_a }) do |config, entity|
@@ -32,4 +34,5 @@ require Rails.root.join('plugins', 'easyproject', 'init.rb').to_s
       end
     end
   end
+end
 end

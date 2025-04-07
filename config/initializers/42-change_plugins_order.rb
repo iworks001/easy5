@@ -1,3 +1,11 @@
+unless defined?(Redmine::Hook)
+  module Redmine
+    module Hook
+      class ViewListener; end
+    end
+  end
+end
+
 require 'redmine/plugin'
 module Redmine
   class Plugin
@@ -37,4 +45,3 @@ module Redmine
   end
 
 end
-

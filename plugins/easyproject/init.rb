@@ -496,7 +496,9 @@ module EasyProjectLoader
   end
 end
 
+Rails.configuration.to_prepare do
 EasyProjectLoader.init!
+end
 
 class EasyLoadPath < Array
   def +(arr)
